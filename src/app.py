@@ -22,5 +22,47 @@ def call_api_and_return_json_data(api_url: str) -> dict:
     return response.json()
 
 
+def print_orderly_events(events: dict) -> None:
+    for event in events:
+        current_event = event[0]
+        print(f"Event: {current_event['title']}")
+
+
+def search_branch(event, search_branch: str) -> bool:
+    """
+    Searches for a branch in the API response dict and returns true if branch is found.
+    Arguments: 
+        - event: dict containing event details
+        - search_branch: str representing the branch name to search for
+    Returns: 
+        - True if branch is included
+        - False if not.
+    """
+    name_matches = False
+    branch_name = event['locations'][0]['location_name']
+    if branch_name.lower() == search_branch.lower():
+        name_matches = True
+
+    return name_matches
+
+
+def display_event_info(event: dict) -> None:
+    """
+    Displays the event information in a readable format.
+    Arguments:
+        - event: dict containing event details
+    Returns:
+        - None
+    """
+    print(f"Title: {event['title']}")
+    print(f"Date: {event['start_date']}")
+    print(f"Time: {event['start_time']} - {event['end_time']}")
+    print(f"Location: {event['locations'][0]['location_name']}")
+    print("\n")
+
+
 events = call_api_and_return_json_data(os.getenv("API_ALL_BRANCHES"))
-print(events)
+
+for event in events:
+    if search_branch(event[0], "West Meeting Room"):
+        display_event_info(event[0])
