@@ -8,8 +8,12 @@ dotenv.load_dotenv()
 def call_api_and_return_json_data(api_url: str) -> dict:
     """
     Calls the Assabet calendar API and returns the response as a JSON object.
-    Args: A string representing the API URL.
-    Returns: A dictionary containing the JSON response from the API.
+
+        Parameters:
+            api_url -- str representing the URL of the API endpoint.
+
+        Returns:
+            a dict containing the JSON response from the API.
     """
 
     headers = {
@@ -23,19 +27,36 @@ def call_api_and_return_json_data(api_url: str) -> dict:
     return response.json()
 
 
+def get_api_data_from_storage(file_path: str) -> dict:
+    """
+    Retrieves API data from a local JSON file.
+
+        Parameters:
+            file_path: str representing the path to the JSON file.
+
+        Returns:
+            adict containing the JSON data from the file.
+    """
+
+
 def write_json_to_file(json_data: dict, file_path: str) -> bool:
     """
-    Writes the JSON data to a file. 
+    Writes the JSON data to a file.
+
     Storage path is relative to the current working directory - should be run from the project directory.
     This directory and file will be created if it does not exist.
-    Args:
-        - json_data: dict containing the JSON data to write
-        - file_path: str representing the requested file name
-    Returns:
-        - True if successful, False if not.
-    Raises:
-        - OSError if there is an issue creating the directory or writing to the file.
+
+        Parameters:
+            json_data: dict containing the JSON data to write
+            file_path: str representing the requested file name
+
+        Returns:
+            True if successful, False if not.
+
+        Raises:
+            OSError if there is an issue creating the directory or writing to the file.
     """
+
     full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
     file_exists = os.path.exists(full_file_path)
 
@@ -70,13 +91,15 @@ def print_orderly_events(events: dict) -> None:
 def search_branch(event, search_branch: str) -> bool:
     """
     Searches for a branch in the API response dict and returns true if branch is found.
-    Arguments: 
-        - event: dict containing event details
-        - search_branch: str representing the branch name to search for
-    Returns: 
-        - True if branch is included
-        - False if not.
+
+        Parameters:
+            event -- dict containing event details
+            search_branch -- str representing the branch name to search for
+
+        Returns:
+            True if branch is included, False if not.
     """
+
     name_matches = False
     branch_name = event['locations'][0]['location_name']
     if branch_name.lower() == search_branch.lower():
@@ -88,11 +111,14 @@ def search_branch(event, search_branch: str) -> bool:
 def display_event_info(event: dict) -> None:
     """
     Displays the event information in a readable format.
-    Arguments:
-        - event: dict containing event details
-    Returns:
-        - None
+
+        Parameters:
+            event -- dict containing event details
+
+        Returns:
+            None
     """
+
     print(f"Title: {event['title']}")
     print(f"Date: {event['start_date']}")
     print(f"Time: {event['start_time']} - {event['end_time']}")
