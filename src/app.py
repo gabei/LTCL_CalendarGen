@@ -6,15 +6,7 @@ dotenv.load_dotenv()
 
 
 def call_api_and_return_json_data(api_url: str) -> dict:
-    """
-    Calls the Assabet calendar API and returns the response as a JSON object.
-
-        Parameters:
-            api_url -- str representing the URL of the API endpoint.
-
-        Returns:
-            a dict containing the JSON response from the API.
-    """
+    """Calls the Assabet calendar API and returns a JSON object."""
 
     headers = {
         "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0",
@@ -28,15 +20,26 @@ def call_api_and_return_json_data(api_url: str) -> dict:
 
 
 def get_api_data_from_storage(file_path: str) -> dict:
-    """
-    Retrieves API data from a local JSON file.
+    """Retrieves JSON data from a local JSON file."""
 
-        Parameters:
-            file_path: str representing the path to the JSON file.
+    # extract this into separate function as to not break DRY principle
+    full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
+    file_exists = os.path.exists(full_file_path)
 
-        Returns:
-            adict containing the JSON data from the file.
-    """
+    if not file_exists:
+        print(f"File not found: {full_file_path}")
+        return {}
+
+    try:
+        with open(full_file_path, 'r') as file:
+            json_data = json.load(file)
+        return json_data
+    except OSError as e:
+        print(f"An error occurred while reading the file: {e}")
+        return {}
+
+    finally:
+        file.close()
 
 
 def write_json_to_file(json_data: dict, file_path: str) -> bool:
@@ -57,6 +60,7 @@ def write_json_to_file(json_data: dict, file_path: str) -> bool:
             OSError if there is an issue creating the directory or writing to the file.
     """
 
+    # extract this into separate function as to not break DRY principle
     full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
     file_exists = os.path.exists(full_file_path)
 
@@ -82,12 +86,6 @@ def write_json_to_file(json_data: dict, file_path: str) -> bool:
         file.close()
 
 
-def print_orderly_events(events: dict) -> None:
-    for event in events:
-        current_event = event[0]
-        print(f"Event: {current_event['title']}")
-
-
 def search_branch(event, search_branch: str) -> bool:
     """
     Searches for a branch in the API response dict and returns true if branch is found.
@@ -108,6 +106,12 @@ def search_branch(event, search_branch: str) -> bool:
     return name_matches
 
 
+def print_orderly_events(events: dict) -> None:
+    for event in events:
+        current_event = event[0]
+        print(f"Event: {current_event['title']}")
+
+
 def display_event_info(event: dict) -> None:
     """
     Displays the event information in a readable format.
@@ -126,8 +130,11 @@ def display_event_info(event: dict) -> None:
     print("\n")
 
 
-events = call_api_and_return_json_data(os.getenv("API_ALL_BRANCHES"))
-write_json_to_file(events, "all-events.json")
+# events = call_api_and_return_json_data(os.getenv("API_ALL_BRANCHES"))
+# write_json_to_file(events, "all-events.json")
+events = get_api_data_from_storage("all-events.json")
+print_orderly_events(events)
+
 
 for event in events:
     if search_branch(event[0], "West Meeting Room"):
