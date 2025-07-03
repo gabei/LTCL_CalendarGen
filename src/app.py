@@ -25,12 +25,16 @@ def call_api_and_return_json_data(api_url: str) -> dict:
 
 def write_json_to_file(json_data: dict, file_path: str) -> bool:
     """
-    Writes the JSON data to a file.
+    Writes the JSON data to a file. 
+    Storage path is relative to the current working directory - should be run from the project directory.
+    This directory and file will be created if it does not exist.
     Args:
         - json_data: dict containing the JSON data to write
-        - file_path: str representing the path to the file where the data will be written
+        - file_path: str representing the requested file name
     Returns:
         - True if successful, False if not.
+    Raises:
+        - OSError if there is an issue creating the directory or writing to the file.
     """
     full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
     file_exists = os.path.exists(full_file_path)
