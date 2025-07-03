@@ -1,0 +1,4252 @@
+[
+    [
+        {
+            "id": "sock-monkey-puppet-show",
+            "title": "Sock Monkey Circus Puppet Show",
+            "start_date": "2025-07-03",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-03",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/sock-monkey-puppet-show/",
+            "description": "<p>Experienced puppeteer, educator, and clown host \"<a href=\"http://goodheartedentertainment.com/\" target=\"_blank\">Funny Honey</a>\" will put on a sock monkey circus for all ages. This show will feature a full circus in miniature with marionettes and puppets!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Sock Monkey Circus Puppet Show"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-189",
+            "title": "Tech Coach",
+            "start_date": "2025-07-03",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-03",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-189/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "hybrid-social-justice-book-club-8",
+            "title": "Hybrid: Social Justice Book Club",
+            "start_date": "2025-07-03",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-03",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/hybrid-social-justice-book-club-8/",
+            "description": "<p align=\"justify\">This month, Social Justice Book Club will read <em>The Kingdom, the Power, and the Glory: American Evangelicals in an Age of Extremism</em> by Tim Alberta.</p>\n<p align=\"justify\">Join the book club for a monthly, social justice-related read and discussion on the first Thursday of the month at 1pm. Please email Morgan McMillian at <a href=\"mailto:librarian@laketravislibrary.org\" target=\"_blank\">librarian@laketravislibrary.org</a> for the unique Zoom link or join us in the library\u2019s meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Hybrid: Social Justice Book Club"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "third-grade-and-up-library-camp-5",
+            "title": "Third Grade and Up Library Camp",
+            "start_date": "2025-07-03",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-03",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/third-grade-and-up-library-camp-5/",
+            "description": "<p align=\"justify\">Children entering third grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Third Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-33",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "10:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-33/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment. </p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-08 09:30:00 -0500",
+                "registration_ends": "2025-07-05 09:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-141",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "10:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-141/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-01 09:30:00 -0500",
+                "registration_ends": "2025-07-05 10:30:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-34",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "10:45:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-34/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment. </p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-08 09:30:00 -0500",
+                "registration_ends": "2025-07-05 09:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-142",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "10:45:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-142/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-01 09:30:00 -0500",
+                "registration_ends": "2025-07-05 10:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-35",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "11:00:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-35/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment. </p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-08 09:30:00 -0500",
+                "registration_ends": "2025-07-05 09:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-143",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "11:00:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-143/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-01 09:30:00 -0500",
+                "registration_ends": "2025-07-05 11:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-36",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "11:15:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-36/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment. </p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-08 09:30:00 -0500",
+                "registration_ends": "2025-07-05 09:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-144",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-05",
+            "start_time": "11:15:00 -0500",
+            "end_date": "2025-07-05",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-144/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-01 09:30:00 -0500",
+                "registration_ends": "2025-07-05 11:15:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "preschool-story-time-35",
+            "title": "Preschool Story Time",
+            "start_date": "2025-07-07",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/preschool-story-time-35/",
+            "description": "<p>Preschool aged children are invited to our Monday morning story times! Stop by to enjoy stories, fingerplays and songs in the Lakeway meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Preschool Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-34",
+            "title": "Tech Coach",
+            "start_date": "2025-07-07",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-34/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-35",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-07",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-35/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-and-first-grade-library-camp-6",
+            "title": "Kindergarten and First Grade Library Camp",
+            "start_date": "2025-07-07",
+            "start_time": "13:30:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "14:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-and-first-grade-library-camp-6/",
+            "description": "<p align=\"justify\">Children entering kindergarten and first grade are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten and First Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "second-grade-and-up-library-camp-6",
+            "title": "Second Grade and Up Library Camp",
+            "start_date": "2025-07-07",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/second-grade-and-up-library-camp-6/",
+            "description": "<p>Children entering second grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Second Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-81",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "16:30:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "16:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-81/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-137",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "16:30:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "16:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-137/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-01 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-82",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "16:45:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-82/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-138",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "16:45:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-138/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-83",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "17:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-83/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-139",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "17:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-139/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-04-08 09:00:00 -0500",
+                "registration_ends": "2025-07-07 17:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-84",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "17:15:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-84/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 15:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-140",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-07-07",
+            "start_time": "17:15:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "17:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-140/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines </a>and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-06-02 09:00:00 -0500",
+                "registration_ends": "2025-07-07 17:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "west-book-club-5",
+            "title": "Books and Bubbly Book Club",
+            "start_date": "2025-07-07",
+            "start_time": "19:00:00 -0500",
+            "end_date": "2025-07-07",
+            "end_time": "20:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/west-book-club-5/",
+            "description": "<p>Join staff member Jennifer Gotcher for our first book club at West! This month, Books and Bubble will read <em>Remarkably Bright Creatures </em>by Shelby Van Pelt.&nbsp;</p>\n<p>Please email Jennifer at <a href=\"mailto:jgotcher@laketravislibrary.org\" target=\"_blank\">jgotcher@laketravislibrary.org</a> for more information or join us in the West meeting room, located in the outpost behind the library.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Books and Bubbly Book Club"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "lake-travis-senior-services-7",
+            "title": "Lake Travis Senior Services\u2014Downsizing Together",
+            "start_date": "2025-07-08",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "12:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/lake-travis-senior-services-7/",
+            "description": "<p>Seniors Real Estate Specialist\u00ae Cyndi Cummings will share tips and tricks for downsizing and how joining a Downsizer Club can help us all share experiences and great ideas! Turnkey Transitions\u00ae and The Cummings Home Team offer compassionate, expert guidance for downsizing, rightsizing, and simplifying your life, helping your family make the right decisions that may arise with your home.</p>\n<p align=\"justify\">We are thrilled to partner with <a href=\"https://ltseniorservices.org/\" target=\"_blank\">Lake Travis Senior Services</a> for their ongoing speaker series. Each month, LTSS will dive into a timely, informational topic that impacts aging adults and their loved ones. Sessions will be led by one or more experts in a variety of fields.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Lake Travis Senior Services\u2014Downsizing Together"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "story-time-19",
+            "title": "Story Time",
+            "start_date": "2025-07-08",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/story-time-19/",
+            "description": "<p>Join Youth Services Specialist Sunny Reed for an all-ages story time with songs, stories, and fingerplays!</p>\n<p>This story time takes place in the West meeting room, located in the outpost behind the library. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-86",
+            "title": "Tech Coach",
+            "start_date": "2025-07-08",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-86/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "power-for-parkinsons-35",
+            "title": "Power for Parkinson&#039;s",
+            "start_date": "2025-07-08",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/power-for-parkinsons-35/",
+            "description": "<p align=\"justify\">Learn movements and exercises designed for people with Parkinson\u2019s disease.&nbsp; All people with Parkinson\u2019s and their care partners are welcome to attend.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">For more information about the organizers, visit <a href=\"powerforparkinsons.org\" target=\"_blank\"><a href=\"https://www.powerforparkinsons.org/\" target=\"_blank\">powerforparkinsons.org</a></a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Power for Parkinson&amp;#039;s"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "frios-gourmet-popsicles-2",
+            "title": "Frios Gourmet Popsicles",
+            "start_date": "2025-07-08",
+            "start_time": "14:00:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "15:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/frios-gourmet-popsicles-2/",
+            "description": "<p align=\"justify\">Cool down with a free summer treat from <a href=\"https://friospops.com/\" target=\"_blank\">Frios Gourmet Pops</a>! Frios features unique flavors like Fruity Pebbles and root beer float. Join us!</p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Frios Gourmet Popsicles"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-library-camp-6",
+            "title": "Kindergarten Library Camp",
+            "start_date": "2025-07-08",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-library-camp-6/",
+            "description": "<p align=\"justify\">Children entering kindergarten are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "pj-story-time-34",
+            "title": "PJ Story Time",
+            "start_date": "2025-07-08",
+            "start_time": "18:00:00 -0500",
+            "end_date": "2025-07-08",
+            "end_time": "18:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/pj-story-time-34/",
+            "description": "<p>Wear your pajamas and snuggle in for an all-ages evening story time with Youth Services Librarian Ms. Nicholle!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "PJ Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "baby-story-time-36",
+            "title": "Baby Story Time",
+            "start_date": "2025-07-09",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/baby-story-time-36/",
+            "description": "<p>This story time is designed for our youngest library users. Join us for stories, fingerplays, poems, and songs in the Lakeway meeting room!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Baby Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "adult-crafts-29",
+            "title": "Adult Crafts\u2014Quilled Paper Chicks",
+            "start_date": "2025-07-09",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/adult-crafts-29/",
+            "description": "<p>Join staff member Beth Yoder for a unique craft! We will have all materials needed.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Adult Crafts\u2014Quilled Paper Chicks"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-138",
+            "title": "Tech Coach",
+            "start_date": "2025-07-09",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-138/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-75",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-09",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-75/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "first-and-second-grade-library-camp-6",
+            "title": "First and Second Grade Library Camp",
+            "start_date": "2025-07-09",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/first-and-second-grade-library-camp-6/",
+            "description": "<p align=\"justify\">Children entering first and second grades are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "First and Second Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "yoga-therapy-2",
+            "title": "Yoga for Brain &amp; Nerve Health",
+            "start_date": "2025-07-09",
+            "start_time": "18:00:00 -0500",
+            "end_date": "2025-07-09",
+            "end_time": "18:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/yoga-therapy-2/",
+            "description": "<p align=\"justify\">Join certified yoga instructor <a href=\"https://www.integrativewellnesspartner.com/\" target=\"_blank\">Adrian Langford</a> for a gentle chair yoga class designed to strengthen and improve brain-body connections. Ideal for those with cognitive impairment, brain fog, ADHD, Parkinson\u2019s, or anxiety. Props (blocks &amp; straps) recommended.</p>\n<div align=\"justify\">Adrian specializes in Yoga for Brain &amp; Nerve Health, Yoga Nidra, and Mindfulness-Based Stress Reduction (MBSR). With 12+ years of experience, she teaches adults of all levels, including those with limited mobility. She is currently working on 300 YTT and is a Certified Yoga Instructor for Nerve Disorders.</div>\n",
+            "image": {
+                "url": "",
+                "alt": "Yoga for Brain &amp;amp; Nerve Health"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-190",
+            "title": "Tech Coach",
+            "start_date": "2025-07-10",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-10",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-190/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "third-grade-and-up-library-camp-6",
+            "title": "Third Grade and Up Library Camp",
+            "start_date": "2025-07-10",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-10",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/third-grade-and-up-library-camp-6/",
+            "description": "<p align=\"justify\">Children entering third grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Third Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "genealogy-group-53",
+            "title": "Genealogy Group",
+            "start_date": "2025-07-11",
+            "start_time": "10:00:00 -0500",
+            "end_date": "2025-07-11",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/genealogy-group-53/",
+            "description": "<p align=\"justify\">All are invited to use the library\u2019s genealogy databases such as Ancestry Library Edition, share information with fellow enthusiasts, and receive help from skilled volunteer Jane Schwendinger.&nbsp;</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Genealogy Group"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "sitarist-indrajit-banerjee",
+            "title": "Sitarist Indrajit Banerjee",
+            "start_date": "2025-07-11",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-11",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/sitarist-indrajit-banerjee/",
+            "description": "<p><a href=\"http://www.indrajitbanerjee.com/\" target=\"_blank\">Indrajit Banerjee</a> is an award-winning sitarist and teacher at the Antara School of Indian Classical music. Banerjee\u2019s artistry blends tradition with individuality. Join us!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Sitarist Indrajit Banerjee"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "rolling-video-games-truck-2",
+            "title": "Rolling Video Games Truck",
+            "start_date": "2025-07-12",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-12",
+            "end_time": "12:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/rolling-video-games-truck-2/",
+            "description": "<p>Join us for rolling video games courtesy of <a href=\"https://www.rollingvideogamesctx.com/\" target=\"_blank\">Rolling Video Games CTX</a>! Gamers are invited to hop on a mobile trailer outfitted with TVs, Xboxes, PS5s, Nintendo Switches, and a catalog of over 100 games!</p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Rolling Video Games Truck"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "puzzle-exchange-4",
+            "title": "Puzzle Exchange",
+            "start_date": "2025-07-12",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-12",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/puzzle-exchange-4/",
+            "description": "<p>We invite you to exchange your gently used puzzles with other puzzle enthusiasts! Puzzles must contain all pieces and be in good condition.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Puzzle Exchange"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "preschool-story-time-36",
+            "title": "Preschool Story Time",
+            "start_date": "2025-07-14",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/preschool-story-time-36/",
+            "description": "<p>Preschool aged children are invited to our Monday morning story times! Stop by to enjoy stories, fingerplays and songs in the Lakeway meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Preschool Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-35",
+            "title": "Tech Coach",
+            "start_date": "2025-07-14",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-35/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-36",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-14",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-36/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-and-first-grade-library-camp-7",
+            "title": "Kindergarten and First Grade Library Camp",
+            "start_date": "2025-07-14",
+            "start_time": "13:30:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "14:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-and-first-grade-library-camp-7/",
+            "description": "<p align=\"justify\">Children entering kindergarten and first grade are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten and First Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "second-grade-and-up-library-camp-7",
+            "title": "Second Grade and Up Library Camp",
+            "start_date": "2025-07-14",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/second-grade-and-up-library-camp-7/",
+            "description": "<p>Children entering second grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Second Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "hybrid-texas-my-texas-book-club-8",
+            "title": "Hybrid: Texas My Texas Book Club",
+            "start_date": "2025-07-14",
+            "start_time": "19:00:00 -0500",
+            "end_date": "2025-07-14",
+            "end_time": "20:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/hybrid-texas-my-texas-book-club-8/",
+            "description": "<p align=\"justify\">This month, Texas My Texas Book Club will read <i>Empire of the Summer Moon: Quanah Parker and the Rise and Fall of the Comanches, the Most Powerful Indian Tribe in American History</i> by S.C. Gwynn. </p>\n<p align=\"justify\">Join the Texas My Texas book club for a monthly Texas-related read and discussion on the second Monday of the month at 7pm. Please email Elizabeth Walden at <a href=\"mailto:ewalden1@gmail.com\" target=\"_blank\">ewalden1@gmail.com</a> for the unique Zoom link or join us in the library\u2019s meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Hybrid: Texas My Texas Book Club"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "bk-bones",
+            "title": "Sharks of the Ancient Deep",
+            "start_date": "2025-07-15",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bk-bones/",
+            "description": "<p align=\"justify\">Join paleontologist <a href=\"https://bkbones.com/\" target=\"_blank\">BK Bones</a> to dive into prehistoric oceans and learn about these ancient predators, some of which live on today with! Learn about the Megalodon with its 9-foot jaws, the Helicoprion with its sawblade teeth, and other unusual sharks! </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Sharks of the Ancient Deep"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "story-time-20",
+            "title": "Story Time",
+            "start_date": "2025-07-15",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/story-time-20/",
+            "description": "<p>Join Youth Services Specialist Sunny Reed for an all-ages story time with songs, stories, and fingerplays!</p>\n<p>This story time takes place in the West meeting room, located in the outpost behind the library. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-87",
+            "title": "Tech Coach",
+            "start_date": "2025-07-15",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-87/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "power-for-parkinsons-36",
+            "title": "Power for Parkinson&#039;s",
+            "start_date": "2025-07-15",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/power-for-parkinsons-36/",
+            "description": "<p align=\"justify\">Learn movements and exercises designed for people with Parkinson\u2019s disease.&nbsp; All people with Parkinson\u2019s and their care partners are welcome to attend.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">For more information about the organizers, visit <a href=\"powerforparkinsons.org\" target=\"_blank\"><a href=\"https://www.powerforparkinsons.org/\" target=\"_blank\">powerforparkinsons.org</a></a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Power for Parkinson&amp;#039;s"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-library-camp-7",
+            "title": "Kindergarten Library Camp",
+            "start_date": "2025-07-15",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-library-camp-7/",
+            "description": "<p align=\"justify\">Children entering kindergarten are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "pj-story-time-35",
+            "title": "PJ Story Time",
+            "start_date": "2025-07-15",
+            "start_time": "18:00:00 -0500",
+            "end_date": "2025-07-15",
+            "end_time": "18:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/pj-story-time-35/",
+            "description": "<p>Wear your pajamas and snuggle in for an all-ages evening story time with Youth Services Librarian Ms. Nicholle!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "PJ Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "baby-story-time-37",
+            "title": "Baby Story Time",
+            "start_date": "2025-07-16",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-16",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/baby-story-time-37/",
+            "description": "<p>This story time is designed for our youngest library users. Join us for stories, fingerplays, poems, and songs in the Lakeway meeting room!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Baby Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-139",
+            "title": "Tech Coach",
+            "start_date": "2025-07-16",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-16",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-139/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-76",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-16",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-16",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-76/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "first-and-second-grade-library-camp-7",
+            "title": "First and Second Grade Library Camp",
+            "start_date": "2025-07-16",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-16",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/first-and-second-grade-library-camp-7/",
+            "description": "<p align=\"justify\">Children entering first and second grades are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "First and Second Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "adult-crafts-9",
+            "title": "Adult Crafts\u2014Quilled Paper Chicks",
+            "start_date": "2025-07-17",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-17",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/adult-crafts-9/",
+            "description": "<p>Join staff member Beth Yoder for a unique craft!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Adult Crafts\u2014Quilled Paper Chicks"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-191",
+            "title": "Tech Coach",
+            "start_date": "2025-07-17",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-17",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-191/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "third-grade-and-up-library-camp-7",
+            "title": "Third Grade and Up Library Camp",
+            "start_date": "2025-07-17",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-17",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/third-grade-and-up-library-camp-7/",
+            "description": "<p align=\"justify\">Children entering third grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Third Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "genealogy-group-54",
+            "title": "Genealogy Group",
+            "start_date": "2025-07-18",
+            "start_time": "10:00:00 -0500",
+            "end_date": "2025-07-18",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/genealogy-group-54/",
+            "description": "<p align=\"justify\">All are invited to use the library\u2019s genealogy databases such as Ancestry Library Edition, share information with fellow enthusiasts, and receive help from skilled volunteer Jane Schwendinger.&nbsp;</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Genealogy Group"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "how-approval-addiction-can-sabotage-your-relationships",
+            "title": "How Approval Addiction Can Sabotage Your Relationships",
+            "start_date": "2025-07-18",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-18",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/how-approval-addiction-can-sabotage-your-relationships/",
+            "description": "<p>Join us for How Approval Addiction Can Sabotage Your Relationships with <a href=\"https://www.skystreety.com/\" target=\"_blank\">Sky Streety</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "How Approval Addiction Can Sabotage Your Relationships"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "spicy-loops",
+            "title": "Spicy Loops",
+            "start_date": "2025-07-18",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-18",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/spicy-loops/",
+            "description": "<p><a href=\"https://www.spicyloops.net/\" target=\"_blank\">Spicy Loops</a> creates a unique sound by live looping a blend of Reggae and Flamenco guitar known as Chill-Menco. Join us for live music at the library!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Spicy Loops"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "preschool-story-time-37",
+            "title": "Preschool Story Time",
+            "start_date": "2025-07-21",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/preschool-story-time-37/",
+            "description": "<p>Preschool aged children are invited to our Monday morning story times! Stop by to enjoy stories, fingerplays and songs in the Lakeway meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Preschool Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-36",
+            "title": "Tech Coach",
+            "start_date": "2025-07-21",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-36/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-37",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-21",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-37/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-and-first-grade-library-camp-8",
+            "title": "Kindergarten and First Grade Library Camp",
+            "start_date": "2025-07-21",
+            "start_time": "13:30:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "14:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-and-first-grade-library-camp-8/",
+            "description": "<p align=\"justify\">Children entering kindergarten and first grade are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten and First Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "snow-cones-2",
+            "title": "Snow Cones with Southern Snow",
+            "start_date": "2025-07-21",
+            "start_time": "13:30:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "15:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/snow-cones-2/",
+            "description": "<p align=\"justify\">Enjoy a free frozen treat made with simple ingredients like fresh fruit and sugar from our favorite local truck, <a href=\"https://www.facebook.com/SouthernSnowATX/\" target=\"_blank\">Southern Snow</a>! </p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Snow Cones with Southern Snow"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "second-grade-and-up-library-camp-8",
+            "title": "Second Grade and Up Library Camp",
+            "start_date": "2025-07-21",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-21",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/second-grade-and-up-library-camp-8/",
+            "description": "<p>Children entering second grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<p>\n<p>Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Second Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "chair-yoga-9",
+            "title": "Chair Yoga",
+            "start_date": "2025-07-22",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/chair-yoga-9/",
+            "description": "<p align=\"justify\">Join registered yoga teacher Monika Orr for a session of chair yoga\u2014a gentle practice in which postures are performed while seated. Chair yoga increases flexibility, strength and body awareness. The benefits also include muscle toning, reduced stress levels, better breathing habits, better sleep and an overall sense of well-being. Anyone who finds traditional mat yoga too challenging (for any of a myriad of reasons) can benefit. In chair yoga, you do not get up and down from the floor, there is no weight bearing on the wrists and shoulders, and much less risk of falling or injury.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">All ages and abilities welcome. Please wear comfortable clothing and bring a water bottle.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Chair Yoga"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "story-time-21",
+            "title": "Story Time",
+            "start_date": "2025-07-22",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/story-time-21/",
+            "description": "<p>Join Youth Services Specialist Sunny Reed for an all-ages story time with songs, stories, and fingerplays!</p>\n<p>This story time takes place in the West meeting room, located in the outpost behind the library. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-88",
+            "title": "Tech Coach",
+            "start_date": "2025-07-22",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-88/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "power-for-parkinsons-37",
+            "title": "Power for Parkinson&#039;s",
+            "start_date": "2025-07-22",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/power-for-parkinsons-37/",
+            "description": "<p align=\"justify\">Learn movements and exercises designed for people with Parkinson\u2019s disease.&nbsp; All people with Parkinson\u2019s and their care partners are welcome to attend.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">For more information about the organizers, visit <a href=\"powerforparkinsons.org\" target=\"_blank\"><a href=\"https://www.powerforparkinsons.org/\" target=\"_blank\">powerforparkinsons.org</a></a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Power for Parkinson&amp;#039;s"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "kindergarten-library-camp-8",
+            "title": "Kindergarten Library Camp",
+            "start_date": "2025-07-22",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/kindergarten-library-camp-8/",
+            "description": "<p align=\"justify\">Children entering kindergarten are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Kindergarten Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "pj-story-time-36",
+            "title": "PJ Story Time",
+            "start_date": "2025-07-22",
+            "start_time": "18:00:00 -0500",
+            "end_date": "2025-07-22",
+            "end_time": "18:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/pj-story-time-36/",
+            "description": "<p>Wear your pajamas and snuggle in for an all-ages evening story time with Youth Services Librarian Ms. Nicholle!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "PJ Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "baby-story-time-38",
+            "title": "Baby Story Time",
+            "start_date": "2025-07-23",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-23",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/baby-story-time-38/",
+            "description": "<p>This story time is designed for our youngest library users. Join us for stories, fingerplays, poems, and songs in the Lakeway meeting room!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Baby Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-140",
+            "title": "Tech Coach",
+            "start_date": "2025-07-23",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-23",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-140/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "austin-reptiles-2",
+            "title": "Austin Reptile Shows",
+            "start_date": "2025-07-23",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-23",
+            "end_time": "15:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/austin-reptiles-2/",
+            "description": "<p>Join <a href=\"http://www.austinreptileshows.com/\" target=\"_blank\">Austin Reptiles</a> for a come and go event where kids can drop in to ask questions and hold live reptiles!</p>\n<p>This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Austin Reptile Shows"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-77",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-23",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-23",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-77/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "first-and-second-grade-library-camp-8",
+            "title": "First and Second Grade Library Camp",
+            "start_date": "2025-07-23",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-23",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/first-and-second-grade-library-camp-8/",
+            "description": "<p align=\"justify\">Children entering first and second grades are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "First and Second Grade Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "sound-bath-7",
+            "title": "CANCELED - Sound Bath",
+            "start_date": "2025-07-24",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-24",
+            "end_time": "11:30:00 -0500",
+            "canceled": "1",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/sound-bath-7/",
+            "description": "<p align=\"justify\">A Sound Bath is a meditative experience in which musical instruments like singing bowls are used to relax, realign and re-energize the body and mind. Participants gather around these musical instruments while instructor Cassandra guides you into a deep, calming state. The term \u201cbath\u201d is used because participants are bathing in the sound as well as the vibrations the sound waves put off. These vibrations are incredibly calming as well, with the goal being to help stimulate your body into restoration as well as clearing out any negative emotions or energies that serve you no purpose.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Please bring a mat and any other items you might need to feel comfortable such as a pillow, blanket, or eye mask.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Sound Bath"
+            },
+            "registration": {
+                "registration_required": 0,
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-192",
+            "title": "Tech Coach",
+            "start_date": "2025-07-24",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-24",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-192/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "third-grade-and-up-library-camp-8",
+            "title": "Third Grade and Up Library Camp",
+            "start_date": "2025-07-24",
+            "start_time": "14:30:00 -0500",
+            "end_date": "2025-07-24",
+            "end_time": "15:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/third-grade-and-up-library-camp-8/",
+            "description": "<p align=\"justify\">Children entering third grade and up are invited to practice reading skills and enjoy activities like crafts, science experiments, writing projects, and more in this Library Camp!</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">Library Camp activities vary each week and are limited to 16 participants. Pick up your Library Camp pass at the circulation desk 30 minutes prior to the start of your hour-long camp.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">This event is part of our <a href=\"https://laketravislibrary.org/summer-reading-program/\" target=\"_blank\">Summer Reading Program</a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Third Grade and Up Library Camp"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "hybrid-board-meeting-9",
+            "title": "Hybrid: Board Meeting",
+            "start_date": "2025-07-24",
+            "start_time": "16:00:00 -0500",
+            "end_date": "2025-07-24",
+            "end_time": "17:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/hybrid-board-meeting-9/",
+            "description": "<p align=\"justify\">All are welcome to attend the Lake Travis Community Library board meeting. Join us in the meeting room or email <a href=\"mailto:librarian@laketravislibrary.org\" target=\"_blank\">librarian@laketravislibrary.org</a> for the unique Zoom link.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Hybrid: Board Meeting"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "genealogy-group-55",
+            "title": "Genealogy Group",
+            "start_date": "2025-07-25",
+            "start_time": "10:00:00 -0500",
+            "end_date": "2025-07-25",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/genealogy-group-55/",
+            "description": "<p align=\"justify\">All are invited to use the library\u2019s genealogy databases such as Ancestry Library Edition, share information with fellow enthusiasts, and receive help from skilled volunteer Jane Schwendinger.&nbsp;</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Genealogy Group"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "guided-meditation-7",
+            "title": "Guided Meditation",
+            "start_date": "2025-07-25",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-25",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/guided-meditation-7/",
+            "description": "<p align=\"justify\">Cultivate gratitude, compassion, and connection with Meditation Teacher and Leadership Coach Sameh Neseim. Open your heart and spread the spirit of thanks \u2013 all are welcome to join!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Guided Meditation"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "qhc-jazz-trio",
+            "title": "QHC Jazz Trio",
+            "start_date": "2025-07-25",
+            "start_time": "15:00:00 -0500",
+            "end_date": "2025-07-25",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/qhc-jazz-trio/",
+            "description": "<p align=\"justify\">Quinn, Hudson, and Christopher hail from St. Michael\u2019s High School and play drums, bass, and keyboard as the QHC jazz trio! Enjoy popular jazz standards and Vince Guaraldi classics. Join us for live music at the library!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "QHC Jazz Trio"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "chess-club-9",
+            "title": "Chess Club",
+            "start_date": "2025-07-26",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-26",
+            "end_time": "12:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/chess-club-9/",
+            "description": "<p>All levels and all ages are invited to Chess Club! This will be a free play session with no dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Chess Club"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "preschool-story-time-38",
+            "title": "Preschool Story Time",
+            "start_date": "2025-07-28",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-28",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/preschool-story-time-38/",
+            "description": "<p>Preschool aged children are invited to our Monday morning story times! Stop by to enjoy stories, fingerplays and songs in the Lakeway meeting room.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Preschool Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-37",
+            "title": "Tech Coach",
+            "start_date": "2025-07-28",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-28",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-37/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-38",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-28",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-28",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-38/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "hybrid-glass-of-wine-book-club-9",
+            "title": "Hybrid: Glass of Wine Book Club",
+            "start_date": "2025-07-28",
+            "start_time": "19:00:00 -0500",
+            "end_date": "2025-07-28",
+            "end_time": "20:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/hybrid-glass-of-wine-book-club-9/",
+            "description": "<p>This month, Glass of Wine will read <em>The Cartographers</em> by Peng Shepherd.</p>\n<p align=\"justify\">Glass of Wine Book Club meets the last Monday of the month at 7pm in the library and on Zoom. Please email club leader Sandra at <a href=\"mailto:gowltlibrary@gmail.com\" target=\"_blank\">gowltlibrary@gmail.com</a> for more information and the unique Zoom link.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Hybrid: Glass of Wine Book Club"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "story-time-22",
+            "title": "Story Time",
+            "start_date": "2025-07-29",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-29",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/story-time-22/",
+            "description": "<p>Join Youth Services Specialist Sunny Reed for an all-ages story time with songs, stories, and fingerplays!</p>\n<p>This story time takes place in the West meeting room, located in the outpost behind the library. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-89",
+            "title": "Tech Coach",
+            "start_date": "2025-07-29",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-29",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-89/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "power-for-parkinsons-38",
+            "title": "Power for Parkinson&#039;s",
+            "start_date": "2025-07-29",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-29",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/power-for-parkinsons-38/",
+            "description": "<p align=\"justify\">Learn movements and exercises designed for people with Parkinson\u2019s disease.&nbsp; All people with Parkinson\u2019s and their care partners are welcome to attend.</p>\n<div align=\"justify\"></div>\n<p align=\"justify\">For more information about the organizers, visit <a href=\"powerforparkinsons.org\" target=\"_blank\"><a href=\"https://www.powerforparkinsons.org/\" target=\"_blank\">powerforparkinsons.org</a></a>.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Power for Parkinson&amp;#039;s"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "pj-story-time-37",
+            "title": "PJ Story Time",
+            "start_date": "2025-07-29",
+            "start_time": "18:00:00 -0500",
+            "end_date": "2025-07-29",
+            "end_time": "18:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/pj-story-time-37/",
+            "description": "<p>Wear your pajamas and snuggle in for an all-ages evening story time with Youth Services Librarian Ms. Nicholle!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "PJ Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "baby-story-time-39",
+            "title": "Baby Story Time",
+            "start_date": "2025-07-30",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-30",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/baby-story-time-39/",
+            "description": "<p>This story time is designed for our youngest library users. Join us for stories, fingerplays, poems, and songs in the Lakeway meeting room!</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Baby Story Time"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "adult-craft",
+            "title": "Adult Crafts\u2014Button Flowers",
+            "start_date": "2025-07-30",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-07-30",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/adult-craft/",
+            "description": "<p>Join staff member Nina Harris for an adult craft! We will provide all materials needed. </p>\n",
+            "image": {
+                "url": "",
+                "alt": "Adult Crafts\u2014Button Flowers"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-141",
+            "title": "Tech Coach",
+            "start_date": "2025-07-30",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-30",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-141/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "mah-jongg-78",
+            "title": "Mah Jongg",
+            "start_date": "2025-07-30",
+            "start_time": "13:00:00 -0500",
+            "end_date": "2025-07-30",
+            "end_time": "16:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West Meeting Room",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/mah-jongg-78/",
+            "description": "<p align=\"justify\">All are invited to play American Mah Jongg at the library on Monday afternoons. Please bring cards and sets if you have them and join in the fun! This is a free play, open session without a dedicated instructor.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Mah Jongg"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "tech-coach-193",
+            "title": "Tech Coach",
+            "start_date": "2025-07-31",
+            "start_time": "12:00:00 -0500",
+            "end_date": "2025-07-31",
+            "end_time": "14:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/tech-coach-193/",
+            "description": "<p>Do you have questions about your computer, phone, tablet, or other technology? Drop in for one-on-one <a href=\"https://laketravislibrary.org/tech-coach/\" target=\"_blank\">technology assistance</a> from our volunteer tech coaches! Sessions are from 12pm to 2pm Monday through Thursday on a first come, first served basis.</p>\n<p>Do you have questions but can\u2019t make it into the library? Email our tech coaches at <a href=\"mailto:techcoach@laketravislibrary.org\" target=\"_blank\">techcoach@laketravislibrary.org</a> and they will respond to assist you with any questions or challenges you have.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Tech Coach"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "genealogy-group-56",
+            "title": "Genealogy Group",
+            "start_date": "2025-08-01",
+            "start_time": "10:00:00 -0500",
+            "end_date": "2025-08-01",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/genealogy-group-56/",
+            "description": "<p align=\"justify\">All are invited to use the library\u2019s genealogy databases such as Ancestry Library Edition, share information with fellow enthusiasts, and receive help from skilled volunteer Jane Schwendinger.&nbsp;</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Genealogy Group"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-37",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "10:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-37/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 10:30:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-145",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "10:30:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "10:45:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-145/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 10:30:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-38",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "10:45:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-38/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 10:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-146",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "10:45:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-146/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 10:45:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-39",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "11:00:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-39/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 11:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-147",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "11:00:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:15:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-147/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 11:00:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-40",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "11:15:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-40/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "https://s3.amazonaws.com/ai-assets/laketravislibrary/41a287efd73059f8a0b62174-788x1086_1_lg.jpg",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 11:15:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "bow-wow-reading-148",
+            "title": "Bow Wow Reading",
+            "start_date": "2025-08-02",
+            "start_time": "11:15:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "11:30:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "West",
+                    "branch_name": "West Library",
+                    "address": "21209 State Hwy 71 W, Spicewood, TX, 78669",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/bow-wow-reading-148/",
+            "description": "<p align=\"justify\">In partnership with <a href=\"https://divinecanines.org/who-we-are/\" target=\"_blank\">Divine Canines</a> and <a href=\"https://canine.org/\" target=\"_blank\">Canine Companions</a>, Bow Wow Reading gives children the opportunity to practice reading to a certified therapy dog! Readers are given a 15-minute private session to practice in a calm and non-judgemental environment.</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Bow Wow Reading"
+            },
+            "registration": {
+                "registration_required": "1",
+                "registration_starts": "2025-07-01 09:30:00 -0500",
+                "registration_ends": "2025-08-02 11:15:00 -0500",
+                "waitlist": "0",
+                "maximum_attendees": "1"
+            }
+        }
+    ],
+    [
+        {
+            "id": "lakeway-photography-club-art-reception",
+            "title": "Lakeway Photography Club Art Reception",
+            "start_date": "2025-08-02",
+            "start_time": "13:30:00 -0500",
+            "end_date": "2025-08-02",
+            "end_time": "15:00:00 -0500",
+            "canceled": "0",
+            "locations": [
+                {
+                    "location_name": "Lakeway Meeting Room",
+                    "branch_name": "Lakeway Library",
+                    "address": "1938 Lohmans Crossing, Lakeway, TX, 78734",
+                    "location_virtual": "0"
+                }
+            ],
+            "categories": [
+                {
+                    "category_name": "Adult"
+                },
+                {
+                    "category_name": "All Ages"
+                },
+                {
+                    "category_name": "Children"
+                }
+            ],
+            "url": "https://laketravislibrary.assabetinteractive.com/calendar/lakeway-photography-club-art-reception/",
+            "description": "<p>&nbsp;</p>\n",
+            "image": {
+                "url": "",
+                "alt": "Lakeway Photography Club Art Reception"
+            },
+            "registration": {
+                "registration_required": "0",
+                "registration_starts": "",
+                "registration_ends": "",
+                "waitlist": "0",
+                "maximum_attendees": ""
+            }
+        }
+    ]
+]

@@ -1,6 +1,7 @@
 import requests
 import dotenv
 import os
+import json
 dotenv.load_dotenv()
 
 
@@ -20,6 +21,40 @@ def call_api_and_return_json_data(api_url: str) -> dict:
 
     response = requests.get(api_url, headers=headers)
     return response.json()
+
+
+def write_json_to_file(json_data: dict, file_path: str) -> bool:
+    """
+    Writes the JSON data to a file.
+    Args:
+        - json_data: dict containing the JSON data to write
+        - file_path: str representing the path to the file where the data will be written
+    Returns:
+        - True if successful, False if not.
+    """
+    full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
+    file_exists = os.path.exists(full_file_path)
+
+    if not file_exists:
+        try:
+            os.makedirs(os.path.dirname(full_file_path), exist_ok=True)
+            print(f"Directory created: {os.path.dirname(full_file_path)}")
+        except OSError as e:
+            print(f"An error occurred while creating the directory: {e}")
+            return False
+
+    try:
+        with open(full_file_path, 'w') as file:
+            json.dump(json_data, file, indent=4)
+        print(f"Data written to {full_file_path}")
+        return True
+
+    except OSError as e:
+        print(f"An error occurred while writing to the file: {e}")
+        return False
+
+    finally:
+        file.close()
 
 
 def print_orderly_events(events: dict) -> None:
@@ -62,6 +97,7 @@ def display_event_info(event: dict) -> None:
 
 
 events = call_api_and_return_json_data(os.getenv("API_ALL_BRANCHES"))
+write_json_to_file(events, "all-events.json")
 
 for event in events:
     if search_branch(event[0], "West Meeting Room"):
