@@ -4,10 +4,12 @@ MARGINS_IN_INCHES = {
     "left": 1.00,
     "right": 1.00,
 }
-FONT_STYLES = "Arial"
-FONT_SIZE = 10
+
 BACKGROUND_COLOR = {
     "R": 91,
     "G": 155,
     "B": 215
 }
+
+DEFAULT_FONT_STYLE = "Arial"
+DEFAULT_FONT_SIZE = 10
