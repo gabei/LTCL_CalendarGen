@@ -22,7 +22,6 @@ def call_api_and_return_json_data(api_url: str) -> dict:
 def get_api_data_from_storage(file_path: str) -> dict:
     """Retrieves JSON data from a local JSON file."""
 
-    # extract this into separate function as to not break DRY principle
     full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
     file_exists = os.path.exists(full_file_path)
 
@@ -60,7 +59,6 @@ def write_json_to_file(json_data: dict, file_path: str) -> bool:
             OSError if there is an issue creating the directory or writing to the file.
     """
 
-    # extract this into separate function as to not break DRY principle
     full_file_path = os.path.join(os.getcwd(), "src", "storage", file_path)
     file_exists = os.path.exists(full_file_path)
 
