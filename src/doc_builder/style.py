@@ -1,7 +1,7 @@
 from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 
 
-def set_font_size(cell: type, size: int) = > bool:
+def set_font_size(cell: type, size: int) -> bool:
     """
     Set the font size of a cell.
 

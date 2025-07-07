@@ -14,8 +14,10 @@ class DocBuilder:
     def __init__(self):
         self.__doc = Document()
         self.__margins = self.define_margins_inches(settings.MARGINS_IN_INCHES)
-        self.__default_font_style = settings.DEFAULT_FONT_STYLE
-        self.__default_font_size = settings.DEFAULT_FONT_SIZE
+        self.__default_font_style = self.define_default_font_style(
+            settings.DEFAULT_FONT_STYLE)
+        self.__default_font_size = self.define_default_font_size(
+            settings.DEFAULT_FONT_SIZE)
 
     @property
     def margins(self) -> dict:
