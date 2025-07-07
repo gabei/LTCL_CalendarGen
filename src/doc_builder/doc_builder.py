@@ -37,6 +37,13 @@ class DocBuilder:
           Returns:
             A dictionary containing the margin values in inches if successful.
         """
+        if not isinstance(margins, dict):
+            raise TypeError("Margins must be a dictionary.")
+
+        for key in ["top", "bottom", "left", "right"]:
+            if key not in margins:
+                raise KeyError(f"Margins dictionary must contain '{key}' key.")
+
         try:
             sections = self.__doc.sections
             sections.left_margin = Inches(margins["left"])
@@ -44,12 +51,11 @@ class DocBuilder:
             sections.top_margin = Inches(margins["top"])
             sections.bottom_margin = Inches(margins["bottom"])
             return margins
-        except KeyError as e:
-            raise KeyError(
-                f"The margins dictionary must contain 'top', 'bottom', 'left', and 'right' keys: {e}")
+
         except AttributeError as e:
-            raise AttributeError(
+            print(
                 f"The object does not have the required margin attributes: {e}")
+            raise
 
     @property
     def default_font_style(self) -> str:
@@ -72,8 +78,9 @@ class DocBuilder:
             self.__default_font_style = font_style
             return True
         except AttributeError as e:
-            raise AttributeError(
+            print(
                 f"The object does not have the required style attribute: {e}")
+            raise
 
     @property
     def default_font_size(self) -> int:
@@ -99,5 +106,6 @@ class DocBuilder:
             self.__default_font_size = font_size
             return True
         except AttributeError as e:
-            raise AttributeError(
+            print(
                 f"The object does not have the required size attribute: {e}")
+            raise
