@@ -30,13 +30,14 @@ class DocBuilder:
         Sets the margins for the document.
 
           Parameters:
-              margins -- dict containing the margin values in inches with keys "top", "bottom", "left", and "right"
+              margins {dict} —— margin values in inches with keys "top", "bottom", "left", and "right"
           Raises:
               KeyError if the margins dictionary does not contain the required keys.
               AttributeError if the object does not have the required margin attributes.
           Returns:
-            A dictionary containing the margin values in inches if successful.
+            {dict} containing the margin values in inches if successful.
         """
+
         if not isinstance(margins, dict):
             raise TypeError("Margins must be a dictionary.")
 
@@ -68,12 +69,15 @@ class DocBuilder:
         Sets the default font style for the document.
 
           Parameters:
-              font_style -- str representing the font style to set
+              font_style {str} ——  the font style to set
           Raises:
             AttributeError if the object does not have a font style attribute.
           Returns:
-              The font style as a string if successful.
+              {str} —— the font style as a  if successful.
         """
+
+        if not isinstance(font_style, str):
+            raise TypeError("Font style must be a string.")
         try:
             self.__default_font_style = font_style
             return True
@@ -93,13 +97,14 @@ class DocBuilder:
         Sets the default font size for the document.
 
           Parameters:
-              font_size -- int representing the font size to set
+              font_size {int} —— the font size to set
           Raises:
             TypeError if the font size is not an integer.
             AttributeError if the object does not have a font size attribute.
           Returns:
-              The font size as an integer if successful.
+              {int} —— The font size if successful.
         """
+
         if not isinstance(font_size, int):
             raise TypeError("Font size must be an integer.")
         try:

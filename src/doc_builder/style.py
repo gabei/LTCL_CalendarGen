@@ -32,7 +32,7 @@ def center_text(cell: type) -> bool:
     Center the text in a cell.
 
       Parameters:
-          cell -- The cell to center the text for.
+          cell {obj} —— The cell to center the text for.
         Raises:
           IndexError if the cell does not contain any paragraphs.
           AttributeError if the cell does not have a paragraph or style attribute.
@@ -43,12 +43,10 @@ def center_text(cell: type) -> bool:
     try:
         target_text = cell.paragraphs[0]
         target_text.alignment = WD_PARAGRAPH_ALIGNMENT.CENTER
+        return True
     except IndexError:
         raise IndexError(
             "The cell does not contain any paragraphs to center the text for.")
     except AttributeError:
         raise AttributeError(
             "The cell does not have a paragraph or the style attribute does not exist on this object.")
-    finally:
-        if target_text:
-            return True
