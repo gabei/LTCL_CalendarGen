@@ -1,6 +1,7 @@
 from docx import Document
 from docx.shared import Pt, Inches
-import doc_settings as settings
+from . import settings
+import warnings
 
 
 class DocBuilder:
@@ -11,13 +12,11 @@ class DocBuilder:
         The constructor will create an instance of the Document class from the python-docx library, then initialize some settings that are imported from the settings module. Since the calendar is a singular file and source of information that won't be changed, this information can all be satic. Any style changes should be made in the settings module.
     """
 
-    def __init__(self):
+    def __init__(self, margins=settings.MARGINS_IN_INCHES, font_style=settings.DEFAULT_FONT_STYLE, font_size=settings.DEFAULT_FONT_SIZE):
         self.__doc = Document()
-        self.__margins = self.define_margins_inches(settings.MARGINS_IN_INCHES)
-        self.__default_font_style = self.define_default_font_style(
-            settings.DEFAULT_FONT_STYLE)
-        self.__default_font_size = self.define_default_font_size(
-            settings.DEFAULT_FONT_SIZE)
+        self.margins = margins
+        self.font_style = font_style
+        self.font_size = font_size
 
     @property
     def margins(self) -> dict:
@@ -25,7 +24,7 @@ class DocBuilder:
         return self.__margins
 
     @margins.setter
-    def define_margins_inches(self, margins: dict) -> dict:
+    def margins(self, margins: dict) -> dict:
         """
         Sets the margins for the document.
 
@@ -37,6 +36,8 @@ class DocBuilder:
           Returns:
             {dict} containing the margin values in inches if successful.
         """
+        warnings.warn(
+            "Margin setter can accept negative margins, which will not be validated when applied by Docx")
 
         if not isinstance(margins, dict):
             raise TypeError("Margins must be a dictionary.")
@@ -51,7 +52,7 @@ class DocBuilder:
             sections.right_margin = Inches(margins["right"])
             sections.top_margin = Inches(margins["top"])
             sections.bottom_margin = Inches(margins["bottom"])
-            return margins
+            self.__margins = margins
 
         except AttributeError as e:
             print(
@@ -59,12 +60,12 @@ class DocBuilder:
             raise
 
     @property
-    def default_font_style(self) -> str:
+    def font_style(self) -> str:
         """The font style of the document."""
-        return self.__default_font_style
+        return self.__font_style
 
-    @default_font_style.setter
-    def define_default_font_style(self, font_style: str) -> str:
+    @font_style.setter
+    def font_style(self, style: str) -> str:
         """
         Sets the default font style for the document.
 
@@ -76,23 +77,22 @@ class DocBuilder:
               {str} —— the font style as a  if successful.
         """
 
-        if not isinstance(font_style, str):
+        if not isinstance(style, str):
             raise TypeError("Font style must be a string.")
         try:
-            self.__default_font_style = font_style
-            return True
+            self.__font_style = style
         except AttributeError as e:
             print(
                 f"The object does not have the required style attribute: {e}")
             raise
 
     @property
-    def default_font_size(self) -> int:
+    def font_size(self) -> int:
         """The font size of the document."""
-        return self.__default_font_size
+        return self.__font_size
 
-    @default_font_size.setter
-    def define_default_font_size(self, font_size: int) -> int:
+    @font_size.setter
+    def font_size(self, size: int) -> int:
         """
         Sets the default font size for the document.
 
@@ -105,11 +105,10 @@ class DocBuilder:
               {int} —— The font size if successful.
         """
 
-        if not isinstance(font_size, int):
+        if not isinstance(size, int):
             raise TypeError("Font size must be an integer.")
         try:
-            self.__default_font_size = font_size
-            return True
+            self.__font_size = size
         except AttributeError as e:
             print(
                 f"The object does not have the required size attribute: {e}")
