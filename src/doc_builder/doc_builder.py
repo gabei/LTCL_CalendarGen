@@ -1,12 +1,11 @@
 from docx import Document
 from docx.shared import Pt, Inches
 from . import settings
-import warnings
 
 
 class DocBuilder:
     """
-    This class describes a Docx based document builder that will be used to format the calendar for printing.
+    The DocBuilder class describes a Docx based document builder that will be used to format the calendar page for printing.
 
       Constructor:
         The constructor will create an instance of the Document class from the python-docx library, then initialize some settings that are imported from the settings module. Since the calendar is a singular file and source of information that won't be changed, this information can all be satic. Any style changes should be made in the settings module.
