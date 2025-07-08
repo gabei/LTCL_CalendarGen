@@ -32,3 +32,9 @@ class TestEventTitle:
         event = Event(**valid_event)
         with pytest.raises(ValueError, match="Title must be a string."):
             event.title = 12345
+
+    def test_event_title_spaces(self):
+        """Test that a space-only title raises a ValueError."""
+        event = Event(**valid_event)
+        with pytest.raises(ValueError, match="Title cannot be empty."):
+            event.title = "      "

@@ -18,10 +18,11 @@ class Event:
     @title.setter
     def title(self, title: str):
         """Set the title of the event."""
-        if not title:
-            raise ValueError("Title cannot be empty.")
         if not isinstance(title, str):
             raise ValueError("Title must be a string.")
+        title = title.strip()
+        if not title:
+            raise ValueError("Title cannot be empty.")
         self.__title = title
 
     @property
