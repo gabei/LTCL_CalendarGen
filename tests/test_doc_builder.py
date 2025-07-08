@@ -16,7 +16,7 @@ def test_doc_builder_initialization():
 
 
 class TestDocBuilderMargins:
-    def test__set_margins_negative(self):
+    def test_set_margins_negative(self):
         """Test setting negative margins."""
         with pytest.raises(ValueError):
             invalid_margins = {"top": -1,
@@ -24,7 +24,7 @@ class TestDocBuilderMargins:
             doc_builder = DocBuilder(
                 invalid_margins, valid_font_style, valid_font_size)
 
-    def test__set_margins_invalid_type(self):
+    def test_set_margins_invalid_type(self):
         """Test setting margins with an invalid type."""
 
         with pytest.raises(TypeError):
@@ -32,7 +32,7 @@ class TestDocBuilderMargins:
             doc_builder = DocBuilder(
                 invalid_margins, valid_font_style, valid_font_size)
 
-    def test__set_margins_missing_keys(self):
+    def test_set_margins_missing_keys(self):
         """Test setting margins with missing keys."""
 
         with pytest.raises(KeyError):
@@ -42,7 +42,7 @@ class TestDocBuilderMargins:
 
 
 class TestDocBuilderFonts:
-    def test__set_default_font_style_invalid_type(self):
+    def test_set_default_font_style_invalid_type(self):
         """Test setting the default font style with an invalid type."""
 
         with pytest.raises(TypeError):
@@ -50,7 +50,7 @@ class TestDocBuilderFonts:
             doc_builder = DocBuilder(
                 valid_margins, invalid_font_style, valid_font_size)
 
-    def test__set_default_font_size_invalid_type(self):
+    def test_set_default_font_size_invalid_type(self):
         """Test setting the default font size with an invalid type."""
 
         with pytest.raises(TypeError):
