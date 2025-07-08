@@ -1,3 +1,4 @@
+from datetime import date
 
 
 class Event:
@@ -20,9 +21,11 @@ class Event:
         """Set the title of the event."""
         if not isinstance(title, str):
             raise ValueError("Title must be a string.")
+
         title = title.strip()
         if not title:
             raise ValueError("Title cannot be empty.")
+
         self.__title = title
 
     @property
