@@ -17,7 +17,7 @@ def test_doc_builder_initialization():
 
 class TestDocBuilderMargins:
     def test__set_margins_negative(self):
-        """Test setting variable margins properly."""
+        """Test setting negative margins."""
         with pytest.raises(ValueError):
             invalid_margins = {"top": -1,
                                "bottom": 2, "left": 0.25, "right": 3}
