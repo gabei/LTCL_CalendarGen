@@ -3,10 +3,10 @@ from event.event import Event
 
 valid_event = {
     "title": "Sample Event",
-    "date": "2023-10-01",
+    "date": "2025-07-08",
     "start_time": "10:00",
     "end_time": "14:00",
-    "location": "Main Hall"
+    "location": "Meeting Room A"
 }
 
 
@@ -18,17 +18,17 @@ def test_event_initialization():
         assert isinstance(value, str)
 
 
-def test_event_title_empty():
-    """Test that an empty title raises a ValueError."""
-    with pytest.raises(ValueError, match="Title cannot be empty."):
-        empty_title = ""
-        Event(empty_title, valid_event["date"], valid_event["start_time"],
-              valid_event["end_time"], valid_event["location"])
+class TestEventTitle:
+    """Test cases for the Event title property."""
 
+    def test_event_title_empty(self):
+        """Test that an empty title raises a ValueError."""
+        event = Event(**valid_event)
+        with pytest.raises(ValueError, match="Title cannot be empty."):
+            event.title = ""
 
-def test_event_title_not_string():
-    """Test that a non-string title raises a ValueError."""
-    with pytest.raises(ValueError, match="Title must be a string."):
-        nonstring_title = 12345
-        Event(nonstring_title, valid_event["date"], valid_event["start_time"],
-              valid_event["end_time"], valid_event["location"])
+    def test_event_title_not_string(self):
+        """Test that a non-string title raises a ValueError."""
+        event = Event(**valid_event)
+        with pytest.raises(ValueError, match="Title must be a string."):
+            event.title = 12345
