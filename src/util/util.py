@@ -5,7 +5,7 @@ def format_time(time_str: str) -> str:
     """
     Format time string from 24hr to AM/PM.
 
-      Parameters:   
+      Parameters:
         time_str {str} —— The time string in 24-hour format (e.g., "14:30:00 -0500").
 
       Raises:
@@ -22,15 +22,17 @@ def format_time(time_str: str) -> str:
     if not time_str:
         raise ValueError("Times cannot be empty strings.")
 
-    # remove timezone info
+    # remove timezone, eval HH:MM:SS
     time_str = time_str.split(" ")[0]
+    hours, minutes, seconds = time_str.split(":")
 
-    hours, minutes, seconds = map(int, time_str.split(":"))
+    int_hours = int(hours)
+    if int_hours == 0:
+        hours = "12"
+    elif int_hours > 12:
+        hours = str(int_hours - 12)
+    else:
+        hours = str(int_hours)
 
-    def hours_are_pm(hours: int) -> bool:
-        """Check if the hours are in PM."""
-        if not isinstance(hours, int):
-            raise ValueError("Hours must be an integer.")
-        if not (0 <= hours < 24):
-            raise ValueError("Hours must be between [0, 24).")
-        return hours >= 12
+    formatted_time = f"{hours}:{minutes}" + ("am" if int_hours < 12 else "pm")
+    return formatted_time
