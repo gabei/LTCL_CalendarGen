@@ -36,8 +36,6 @@ class DocBuilder:
           Returns:
             {dict} containing the margin values in inches if successful.
         """
-        warnings.warn(
-            "Margin setter can accept negative margins, which will not be validated when applied by Docx")
 
         if not isinstance(margins, dict):
             raise TypeError("Margins must be a dictionary.")
@@ -45,6 +43,8 @@ class DocBuilder:
         for key in ["top", "bottom", "left", "right"]:
             if key not in margins:
                 raise KeyError(f"Margins dictionary must contain '{key}' key.")
+            if margins[key] < 0:
+                raise ValueError(f"Margin '{key}' cannot be negative.")
 
         try:
             sections = self.__doc.sections
