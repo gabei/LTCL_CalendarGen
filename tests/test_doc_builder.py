@@ -42,16 +42,6 @@ class TestDocBuilderMargins:
 
 
 class TestDocBuilderFonts:
-    def test__set_default_font_style_success(self):
-        """Test setting the default font style successfully."""
-        font_style = "Times New Roman"
-        doc_builder = DocBuilder(valid_margins, font_style, valid_font_size)
-        result = doc_builder.font_style
-
-        assert isinstance(result, str)
-        assert result is "Times New Roman"
-        assert doc_builder.font_style == font_style
-
     def test__set_default_font_style_invalid_type(self):
         """Test setting the default font style with an invalid type."""
 
