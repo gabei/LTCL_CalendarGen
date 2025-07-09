@@ -108,3 +108,21 @@ class TestEventLocation:
         event = Event(**valid_event)
         with pytest.raises(ValueError, match="Location must be a string."):
             event.location = 12345
+
+
+class TestEventFormattedString:
+    """Test cases for extra Event full string as it would be on the calendar."""
+
+    def test_full_event_string(self):
+        event = Event(**valid_event)
+        event.start_time = "14:00:00 -0500"
+        event.end_time = "17:00:00 -0500"
+        assert event.full_event_string() == "2:00pm - 5:00pm"
+
+        event.start_time = "08:00:00 -0500"
+        event.end_time = "12:00:00 -0500"
+        assert event.full_event_string() == "8:00am - 12:00pm"
+
+        event.start_time = "07:30:00 -0500"
+        event.end_time = "15:45:00 -0500"
+        assert event.full_event_string() == "7:30am - 3:45pm"

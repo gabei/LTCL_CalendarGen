@@ -1,3 +1,5 @@
+from util.util import format_time
+
 
 class Event:
     """The Event class describes a library event's details. Will be represented as a single event on the calendar."""
@@ -82,5 +84,7 @@ class Event:
             raise ValueError("Location must be a string.")
         self.__location = location
 
-    def __str__(self):
-        return f"Event(name={self.name}, date={self.date}, location={self.location})"
+    def full_event_string(self):
+        start = format_time(self.start_time)
+        end = format_time(self.end_time)
+        return f"{start} - {end}"
