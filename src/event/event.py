@@ -1,5 +1,3 @@
-from datetime import date
-
 
 class Event:
     """The Event class describes a library event's details. Will be represented as a single event on the calendar."""
