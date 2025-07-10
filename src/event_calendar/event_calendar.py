@@ -6,11 +6,25 @@ from datetime import *
 
 
 def get_next_monday_date(todays_date):
+    """
+    Return the next Monday following the provided date.
+
+      Parameters:
+        todays_date {datetime.date} —— date object representing next today's date
+      Returns: 
+        next-monday {datetime.date} —— date object representing next monday's date
+    """
+
     next_monday = todays_date+relativedelta(weekday=MO)
     return next_monday
 
 
 def get_next_weeks_dates():
+    """
+    Create and return an array containing next week's dates, starting from Monday and ending on Saturday.
+    We use relativedelta to iterate over next week's days in relation to Monday
+    """
+
     today = date.today()
     next_monday = get_next_monday_date(today)
 
