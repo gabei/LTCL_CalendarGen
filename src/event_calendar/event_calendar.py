@@ -3,71 +3,67 @@
 
 from dateutil.relativedelta import *
 from datetime import *
+from event.event import Event
 
 
-def get_next_monday_date(todays_date):
-    """
-    Return the next Monday following the provided date.
+class EventCalendar:
+    def __init__(self):
+        self.events = []
 
-      Parameters:
-        todays_date {datetime.date} —— date object representing next today's date
-      Returns: 
-        next-monday {datetime.date} —— date object representing next monday's date
-    """
+    @property
+    def events(self):
+        """Return the events list."""
+        return self.__events
 
-    next_monday = todays_date+relativedelta(weekday=MO)
-    return next_monday
+    @events.setter
+    def events(self, events):
+        if not isinstance(events, list):
+            raise ValueError(
+                "EventCalendar only accepts lists of the Event type.")
+        self.__events = events
 
+    def get_next_monday_date(self, todays_date) -> datetime.date:
+        """
+        Return the next Monday following the provided date.
 
-def get_next_weeks_dates():
-    """
-    Create and return an array containing next week's dates, starting from Monday and ending on Saturday.
-    We use relativedelta to iterate over next week's days in relation to Monday
-    """
+          Parameters:
+            todays_date {datetime.date} —— date object representing next today's date
+          Returns: 
+            next-monday {datetime.date} —— date object representing next monday's date
+        """
 
-    today = date.today()
-    next_monday = get_next_monday_date(today)
+        next_monday = todays_date+relativedelta(weekday=MO)
+        return next_monday
 
-    next_weeks_dates = [next_monday + relativedelta(days=+i) for i in range(6)]
-    return next_weeks_dates
+    def get_next_weeks_dates(self) -> list[datetime.date]:
+        """
+        Create and return an array containing next week's dates, starting from Monday and ending on Saturday.
+        We use relativedelta to iterate over next week's days in relation to Monday
 
+          Returns:
+            next_weeks_dates {list[datetime.date]} —— A list containing date time values of next week's dates in order
+        """
 
-"""
-------------------------------------------------------------------------------------------------------------------------------
-next_monday and next_weeks_dates will be used as follows:
-  - the time strings for next week will be found with the functions above
-  - the events data (json) will be looped over to find the first date that begins with next_monday's date
-  - subsequent events will be added until we reach the last event date of the week
-  - these eevents will be added to a dict containing these keys:
-    - weekly_events = {
-        date: [**events]
-    }
-    - e.g.
-      weekly_events = {
-        Monday: [event1, event2, etc...],
-        Tuesday: [event1, event2, etc...],
-        ...
-      }
-  - Empty days should still have a key with an empty array inside
-  - This event data will be used to create Event class instances which will populate the arrays
-------------------------------------------------------------------------------------------------------------------------------
+        today = date.today()
+        next_monday = self.get_next_monday_date(today)
 
-psuedo code to describe how event collection will work:
+        next_weeks_dates = [next_monday +
+                            relativedelta(days=+i) for i in range(6)]
+        return next_weeks_dates
 
+    def populate_weekly_calendar(self, json_data) -> list[datetime.date]:
+        weekly_calendar = {}
+        next_weeks_dates = self.get_next_weeks_dates()
 
+        for item in json_data:
+            if item["start_date"] in next_weeks_dates:
+                event = Event(
+                    title=item["title"],
+                    date=item["start_date"],
+                    start_time=item["start_time"],
+                    end_time=item["end_time"],
+                    location=item["locations"][0]["location_name"]
+                )
+                weekly_calendar["start_date"].append(event)
 
-
-  def populate_weekly_calendar(data):
-    weekly_calendar = {}
-    populating_calendar = False
-    next_weeks-dates = get_next_weeks_dates()
-
-    for item in data:
-      if item[start date] in next_week's dates
-        weekly_calendar[start date] = new Event(item)
-
-      return weekly_calendar
-
-"""
-
-print(get_next_weeks_dates())
+        return weekly_calendar

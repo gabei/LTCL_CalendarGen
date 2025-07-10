@@ -1,3 +1,4 @@
+from event_calendar.event_calendar import EventCalendar
 import requests
 import dotenv
 import os
@@ -130,10 +131,13 @@ def display_event_info(event: dict) -> None:
 
 # events = call_api_and_return_json_data(os.getenv("API_ALL_BRANCHES"))
 # write_json_to_file(events, "all-events.json")
-events = get_api_data_from_storage("all-events.json")
-print_orderly_events(events)
+# events = get_api_data_from_storage("all-events.json")
+# print_orderly_events(events)
 
 
-for event in events:
-    if search_branch(event[0], "West Meeting Room"):
-        display_event_info(event[0])
+# for event in events:
+#     if search_branch(event[0], "West Meeting Room"):
+#         display_event_info(event[0])
+
+calendar = EventCalendar()
+print(calendar.get_next_weeks_dates())
