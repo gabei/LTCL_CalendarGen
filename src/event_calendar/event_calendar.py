@@ -47,8 +47,9 @@ class EventCalendar:
         today = date.today()
         next_monday = self.get_next_monday_date(today)
 
-        next_weeks_dates = [next_monday +
-                            relativedelta(days=+i) for i in range(6)]
+        next_weeks_dates = [(next_monday +
+                            relativedelta(days=+i)).strftime("%Y-%m-%d") for i in range(6)]
+
         return next_weeks_dates
 
     def populate_weekly_calendar(self, json_data) -> list[datetime.date]:
