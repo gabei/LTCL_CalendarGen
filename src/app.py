@@ -129,9 +129,9 @@ def display_event_info(event: dict) -> None:
     print("\n")
 
 
+data = get_api_data_from_storage("all-events.json")
 calendar = EventCalendar()
-dates = calendar.get_next_weeks_dates()
-search_date = "2025-07-21"
+calendar.events = data
 
-print(f"search_date: {search_date}")
-print(f"Is search date in next week's dates? {search_date in dates}")
+for day in calendar.events:
+    print(day)

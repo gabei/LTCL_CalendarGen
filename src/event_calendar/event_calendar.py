@@ -16,11 +16,27 @@ class EventCalendar:
         return self.__events
 
     @events.setter
-    def events(self, events):
-        if not isinstance(events, list):
-            raise ValueError(
-                "EventCalendar only accepts lists of the Event type.")
-        self.__events = events
+    def events(self, json_data: list):
+        weekly_calendar = {}
+        next_weeks_dates = self.get_next_weeks_dates()
+
+        for all_events in json_data:
+            for item in all_events:
+                if item["start_date"] in next_weeks_dates:
+                    event = Event(
+                        title=item["title"],
+                        date=item["start_date"],
+                        start_time=item["start_time"],
+                        end_time=item["end_time"],
+                        location=item["locations"][0]["location_name"]
+                    )
+
+                    key = item["start_date"]
+                    if key not in weekly_calendar:
+                        weekly_calendar[key] = []
+                    weekly_calendar[key].append(event)
+
+        self.__events = weekly_calendar
 
     def get_next_monday_date(self, todays_date) -> datetime.date:
         """
