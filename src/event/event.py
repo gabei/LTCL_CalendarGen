@@ -88,3 +88,6 @@ class Event:
         start = format_time(self.start_time)
         end = format_time(self.end_time)
         return f"{start} - {end}"
+
+    def __str__(self):
+        return (f"{self.__title}\n{self.full_event_string()}")

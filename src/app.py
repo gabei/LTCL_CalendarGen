@@ -111,27 +111,12 @@ def print_orderly_events(events: dict) -> None:
         print(f"Event: {current_event['title']}")
 
 
-def display_event_info(event: dict) -> None:
-    """
-    Displays the event information in a readable format.
-
-        Parameters:
-            event -- dict containing event details
-
-        Returns:
-            None
-    """
-
-    print(f"Title: {event['title']}")
-    print(f"Date: {event['start_date']}")
-    print(f"Time: {event['start_time']} - {event['end_time']}")
-    print(f"Location: {event['locations'][0]['location_name']}")
-    print("\n")
-
-
 data = get_api_data_from_storage("all-events.json")
 calendar = EventCalendar()
 calendar.events = data
 
-for day in calendar.events:
-    print(day)
+for day in calendar.events.values():
+    print(f"Events for {day}")
+    for event in day:
+        print(event)
+    print("\n\n")

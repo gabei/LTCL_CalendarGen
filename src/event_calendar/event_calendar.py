@@ -37,6 +37,7 @@ class EventCalendar:
                     weekly_calendar[key].append(event)
 
         self.__events = weekly_calendar
+        type(self.__events)
 
     def get_next_monday_date(self, todays_date) -> datetime.date:
         """
