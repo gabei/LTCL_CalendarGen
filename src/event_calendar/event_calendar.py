@@ -69,7 +69,24 @@ class EventCalendar:
 
         return next_weeks_dates
 
-    def populate_weekly_calendar(self, json_data) -> list[datetime.date]:
+    def populate_weekly_calendar(self, json_data) -> None:
+        """
+        Fills the event calendar with instances of the Event class.
+
+        Parameters:
+            json_data {list} —— date object representing next today's date
+        Raises:
+            ValueError — when JSON data is empty, null, or of the wrong type
+        Returns: 
+            None — sets self.__events equal to a list of Events
+
+        """
+
+        if not json_data or len(json_data) == 0:
+            raise ValueError("JSON data cannot be emptyt.")
+        if not isinstance(json_data, list):
+            raise ValueError("JSON data is expect as a list type.")
+
         weekly_calendar = {}
         next_weeks_dates = self.get_next_weeks_dates()
 
