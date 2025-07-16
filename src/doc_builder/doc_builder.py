@@ -1,6 +1,7 @@
 from docx import Document
 from docx.shared import Pt, Inches
 from . import settings
+from ..event_calendar.event_calendar import EventCalendar
 
 
 class DocBuilder:
@@ -11,7 +12,7 @@ class DocBuilder:
         The constructor will create an instance of the Document class from the python-docx library, then initialize some settings that are imported from the settings module. Since the calendar is a singular file and source of information that won't be changed, this information can all be satic. Any style changes should be made in the settings module.
     """
 
-    def __init__(self, margins=settings.MARGINS_IN_INCHES, font_style=settings.DEFAULT_FONT_STYLE, font_size=settings.DEFAULT_FONT_SIZE):
+    def __init__(self, calendar: EventCalendar, margins=settings.MARGINS_IN_INCHES, font_style=settings.DEFAULT_FONT_STYLE, font_size=settings.DEFAULT_FONT_SIZE):
         self.__doc = Document()
         self.margins = margins
         self.font_style = font_style
