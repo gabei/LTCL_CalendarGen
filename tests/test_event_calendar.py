@@ -4,6 +4,7 @@ from event_calendar.event_calendar import EventCalendar
 from event.event import Event
 from datetime import *
 
+
 calendar = EventCalendar()
 data = get_api_data_from_storage("all-events.json")
 calendar.events = data

@@ -1,6 +1,7 @@
 import pytest
 from event.event import Event
 
+
 valid_event = {
     "title": "Sample Event",
     "date": "2025-07-08",

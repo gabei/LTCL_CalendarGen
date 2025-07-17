@@ -1,6 +1,7 @@
 import pytest
 from doc_builder.doc_builder import DocBuilder
 
+
 valid_margins = {"top": 1, "bottom": 1, "left": 1, "right": 1}
 valid_font_style = "Arial"
 valid_font_size = 12
