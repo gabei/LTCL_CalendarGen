@@ -17,6 +17,12 @@ class EventCalendar:
 
     @events.setter
     def events(self, json_data: list):
+        if json_data is None:
+            raise ValueError("Passed event data cannot of type None.")
+
+        if not isinstance(json_data, list):
+            raise TypeError("Expected json_data to be of type list.")
+
         weekly_calendar = {}
         next_weeks_dates = self.get_next_weeks_dates()
 
