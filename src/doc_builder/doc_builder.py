@@ -2,6 +2,9 @@ from docx import Document
 from docx.shared import Pt, Inches
 from . import settings
 from event_calendar.event_calendar import EventCalendar
+from docx.shared import Inches
+from docx.enum.section import WD_SECTION, WD_ORIENT
+import warnings
 
 
 class DocBuilder:
@@ -14,6 +17,7 @@ class DocBuilder:
 
     def __init__(self, margins=settings.MARGINS_IN_INCHES, font_style=settings.DEFAULT_FONT_STYLE, font_size=settings.DEFAULT_FONT_SIZE):
         self.__doc = Document()
+        self.set_page_orientation()
         self.margins = margins
         self.font_style = font_style
         self.font_size = font_size
@@ -113,3 +117,37 @@ class DocBuilder:
             print(
                 f"The object does not have the required size attribute: {e}")
             raise
+
+    def set_page_orientation(self):
+        main_section = self.__doc.sections[-1]
+        main_section.orientation = WD_ORIENT.LANDSCAPE
+        main_section.page_width = Inches(11.0)
+        main_section.page_height = Inches(8.5)
+
+    def build_table(self):
+        warnings.warn("Break this function down into smaller pieces!")
+        # create table in document
+        table = self.__doc.add_table(rows=4, cols=6)
+
+        # set widths of the table columns
+        cols = table.columns
+        for i in range(0, len(cols)):
+            for cell in range(0, len(cols[i].cells)):
+                cols[i].cells[cell].width = Inches(1.0)
+
+        # set headers of the table
+        day_headers = table.rows[0].cells
+        week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+        for day in range(0, len(week)):
+            day_headers[day].text = week[day]
+
+        # set dates of the table
+        warnings.warn("Table dates are currently hard-coded!")
+        dates = ["2025-07-21", "2025-07-22", "2025-07-23",
+                 "2025-07-24", "2025-07-25", "2025-07-26"]
+        date_headers = table.rows[1].cells
+        for date in range(0, len(dates)):
+            date_headers[date].text = dates[date]
+
+    def save_document(self):
+        self.__doc.save("calendar.docx")

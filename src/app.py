@@ -1,4 +1,5 @@
 from event_calendar.event_calendar import EventCalendar
+from doc_builder.doc_builder import DocBuilder
 import requests
 import dotenv
 import os
@@ -111,12 +112,10 @@ def print_orderly_events(events: dict) -> None:
         print(f"Event: {current_event['title']}")
 
 
-data = get_api_data_from_storage("all-events.json")
-calendar = EventCalendar()
-calendar.events = data
+# data = get_api_data_from_storage("all-events.json")
+# calendar = EventCalendar()
+# calendar.events = data
 
-for day in calendar.events.values():
-    print(f"Events for {day}")
-    for event in day:
-        print(event)
-    print("\n\n")
+doc = DocBuilder()
+doc.build_table()
+doc.save_document()
