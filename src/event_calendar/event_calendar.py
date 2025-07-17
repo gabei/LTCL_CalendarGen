@@ -45,7 +45,7 @@ class EventCalendar:
         self.__events = weekly_calendar
         type(self.__events)
 
-    def get_next_monday_date(self, todays_date) -> datetime.date:
+    def get_next_monday_date(self, todays_date) -> date:
         """
         Return the next Monday following the provided date.
 
@@ -54,11 +54,12 @@ class EventCalendar:
           Returns: 
             next-monday {datetime.date} —— date object representing next monday's date
         """
-
+        if not isinstance(todays_date, date):
+            raise ValueError("Passed dates should be of type date.")
         next_monday = todays_date+relativedelta(weekday=MO)
         return next_monday
 
-    def get_next_weeks_dates(self) -> list[datetime.date]:
+    def get_next_weeks_dates(self) -> list[date]:
         """
         Create and return an array containing next week's dates, starting from Monday and ending on Saturday.
         We use relativedelta to iterate over next week's days in relation to Monday
@@ -88,10 +89,10 @@ class EventCalendar:
 
         """
 
-        if not json_data or len(json_data) == 0:
-            raise ValueError("JSON data cannot be emptyt.")
-        if not isinstance(json_data, list):
-            raise ValueError("JSON data is expect as a list type.")
+        if json_data is None or not isinstance(json_data, list):
+            raise TypeError("JSON data is expected as a list type.")
+        if len(json_data) == 0:
+            raise ValueError("JSON data cannot be empty.")
 
         weekly_calendar = {}
         next_weeks_dates = self.get_next_weeks_dates()
