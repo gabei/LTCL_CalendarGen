@@ -150,5 +150,5 @@ class DocBuilder:
         for date in range(0, len(dates)):
             date_headers[date].text = dates[date]
 
-    def save_document(self):
-        self.__doc.save("calendar.docx")
+    def save_document(self, file_path):
+        self.__doc.save(file_path)
