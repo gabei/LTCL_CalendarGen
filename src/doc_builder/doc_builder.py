@@ -17,11 +17,11 @@ class DocBuilder:
 
     def __init__(self, calendar: EventCalendar = None):
         self.__doc = Document()
+        self.calendar = calendar
         self.set_page_orientation()
         self.margins = settings.MARGINS_IN_INCHES
         self.font_style = settings.DEFAULT_FONT_STYLE
         self.font_size = settings.DEFAULT_FONT_SIZE
-        self.calendar = calendar
 
     @property
     def margins(self) -> dict:
@@ -149,6 +149,15 @@ class DocBuilder:
         date_headers = table.rows[1].cells
         for date in range(0, len(dates)):
             date_headers[date].text = dates[date]
+
+        # # set table events
+        # event_containers = table.rows[2].cells
+
+        # for i in range(0, len(self.__calendar.events)):
+        #     current_cell = event_containers[i]
+        #     for event in self.__calendar.events[i]:
+        #         event_text = f"{event.title}\n{event.full_time_string()}"
+        #         current_cell.add_paragraph(event_text)
 
     def save_document(self, file_path):
         self.__doc.save(file_path)

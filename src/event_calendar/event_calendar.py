@@ -8,7 +8,7 @@ from event.event import Event
 
 class EventCalendar:
     def __init__(self):
-        self.events = []
+        self.events = [{}]
 
     @property
     def events(self):
@@ -18,10 +18,11 @@ class EventCalendar:
     @events.setter
     def events(self, json_data: list):
         if json_data is None:
-            raise ValueError("Passed event data cannot of type None.")
-
+            raise TypeError("Passed event data cannot be of type None.")
         if not isinstance(json_data, list):
             raise TypeError("Expected json_data to be of type list.")
+        if len(json_data) == 0:
+            raise ValueError("JSON data cannot be empty.")
 
         weekly_calendar = {}
         next_weeks_dates = self.get_next_weeks_dates()

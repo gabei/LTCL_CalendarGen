@@ -16,8 +16,6 @@ class TestEventCalendar:
         assert isinstance(calendar.events, dict)
         assert callable(getattr(calendar, "get_next_monday_date"))
         assert callable(getattr(calendar, "get_next_weeks_dates", False))
-        assert callable(getattr(calendar,
-                        "populate_weekly_calendar", False))
 
     def test_calendar_events_exist(self):
         assert not calendar.events is None
@@ -30,12 +28,16 @@ class TestEventCalendar:
                 assert isinstance(event, Event)
 
     def test_set_events_are_none(self):
-        with pytest.raises(ValueError, match="Passed event data cannot of type None."):
+        with pytest.raises(TypeError, match="Passed event data cannot be of type None."):
             calendar.events = None
 
-    def test_set_events_are_wrong_type(self):
+    def test_set_events_are_dict(self):
         with pytest.raises(TypeError, match="Expected json_data to be of type list."):
-            calendar.events = {"invalid_parameter_type": True}
+            calendar.events = {}
+
+    def test_set_events_are_empty(self):
+        with pytest.raises(ValueError, match="JSON data cannot be empty."):
+            calendar.events = []
 
     def test_get_next_monday_date_type(self):
         monday = calendar.get_next_monday_date(date.today())
@@ -54,13 +56,3 @@ class TestEventCalendar:
         assert len(dates) != 0
         for date in dates:
             assert isinstance(date, str)
-
-    def test_populate_weekly_calendar_types(self):
-        with pytest.raises(TypeError, match="JSON data is expected as a list type."):
-            calendar.populate_weekly_calendar(None)
-
-        with pytest.raises(TypeError, match="JSON data is expected as a list type."):
-            calendar.populate_weekly_calendar({})
-
-        with pytest.raises(ValueError, match="JSON data cannot be empty."):
-            calendar.populate_weekly_calendar([])
