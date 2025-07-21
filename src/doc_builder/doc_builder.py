@@ -152,14 +152,11 @@ class DocBuilder:
 
         # set table events
         event_containers = table.rows[2].cells
-
-        for i in range(0, len(self.calendar.events)):
-            current_cell = event_containers[i]
-            for date, events in self.calendar.events.items():
-                print(date)
-                for event in events:
-                    print(event)
-                print("\n\n")
+        for key, value in self.calendar.events.items():
+            print(key)
+            for v in value:
+                print(v)
+            print("\n\n")
 
     def save_document(self, file_path):
         self.__doc.save(file_path)
