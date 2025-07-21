@@ -1,8 +1,10 @@
+from docx.shared import Pt, Inches
+
 MARGINS_IN_INCHES = {
-    "top": 0.75,
-    "bottom": 0.75,
-    "left": 1.00,
-    "right": 1.00,
+    "top": Inches(0.75),
+    "bottom": Inches(0.75),
+    "left": Inches(1.00),
+    "right": Inches(1.00),
 }
 
 BACKGROUND_COLOR = {
@@ -12,4 +14,4 @@ BACKGROUND_COLOR = {
 }
 
 DEFAULT_FONT_STYLE = "Arial"
-DEFAULT_FONT_SIZE = 10
+DEFAULT_FONT_SIZE = Pt(10)

@@ -15,15 +15,13 @@ class DocBuilder:
         The constructor will create an instance of the Document class from the python-docx library, then initialize some settings that are imported from the settings module. Since the calendar is a singular file and source of information that won't be changed, this information can all be satic. Any style changes should be made in the settings module.
     """
 
-    def __init__(self, calendar: EventCalendar = None):
+    def __init__(self, font_style: str, font_size: int, margins: dict, calendar: EventCalendar = None):
         self.__doc = Document()
         self.__table = None
         self.calendar = calendar
+        self.margins = margins
         self.set_page_orientation()
-        self.margins = settings.MARGINS_IN_INCHES
-        self.font_style = settings.DEFAULT_FONT_STYLE
-        self.font_size = settings.DEFAULT_FONT_SIZE
-        self.set_doc_styles()
+        self.set_doc_styles(font_style, font_size)
 
     @property
     def margins(self) -> dict:
@@ -121,11 +119,11 @@ class DocBuilder:
                 f"The object does not have the required size attribute: {e}")
             raise
 
-    def set_doc_styles(self):
+    def set_doc_styles(self, font_style: str, font_size: int):
         style = self.__doc.styles["Normal"]
         font = style.font
-        font.name = self.__font_style
-        font.size = Pt(self.__font_size)
+        font.name = font_style
+        font.size = font_size
 
     def set_page_orientation(self):
         main_section = self.__doc.sections[-1]
@@ -170,13 +168,10 @@ class DocBuilder:
         event_containers = self.__table.rows[2].cells
         for index, (__, events) in enumerate(self.calendar.events.items()):
             for event in events:
-                # print(event)
                 event_text = event_containers[index].add_paragraph()
                 title = event_text.add_run(event.title + "\n")
                 title.bold = True
                 date = event_text.add_run(event.full_event_string())
-
-            print("\n\n")
 
     def save_document(self, file_path):
         self.__doc.save(file_path)

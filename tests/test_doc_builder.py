@@ -7,7 +7,8 @@ valid_margins = {"top": 1, "bottom": 1, "left": 1, "right": 1}
 valid_font_style = "Arial"
 valid_font_size = 12
 calendar = EventCalendar()
-doc_builder = DocBuilder(calendar)
+doc_builder = DocBuilder(valid_font_style,
+                         valid_font_size, valid_margins, calendar)
 
 
 def test_doc_builder_initialization():
