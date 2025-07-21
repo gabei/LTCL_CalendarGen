@@ -23,6 +23,7 @@ class DocBuilder:
         self.margins = settings.MARGINS_IN_INCHES
         self.font_style = settings.DEFAULT_FONT_STYLE
         self.font_size = settings.DEFAULT_FONT_SIZE
+        self.set_doc_styles()
 
     @property
     def margins(self) -> dict:
@@ -120,6 +121,12 @@ class DocBuilder:
                 f"The object does not have the required size attribute: {e}")
             raise
 
+    def set_doc_styles(self):
+        style = self.__doc.styles["Normal"]
+        font = style.font
+        font.name = self.__font_style
+        font.size = Pt(self.__font_size)
+
     def set_page_orientation(self):
         main_section = self.__doc.sections[-1]
         main_section.orientation = WD_ORIENT.LANDSCAPE
@@ -161,9 +168,9 @@ class DocBuilder:
     def populate_table_with_events(self):
         # set table events
         event_containers = self.__table.rows[2].cells
-        for index, (date, events) in enumerate(self.calendar.events.items()):
+        for index, (__, events) in enumerate(self.calendar.events.items()):
             for event in events:
-                print(event)
+                # print(event)
                 event_text = event_containers[index].add_paragraph()
                 title = event_text.add_run(event.title + "\n")
                 title.bold = True
