@@ -164,10 +164,11 @@ class DocBuilder:
         for index, (date, events) in enumerate(self.calendar.events.items()):
             for event in events:
                 print(event)
-                title = event.title
-                date = event.full_event_string()
-                text = title + "\n" + date
-                event_containers[index].add_paragraph(text)
+                event_text = event_containers[index].add_paragraph()
+                title = event_text.add_run(event.title + "\n")
+                title.bold = True
+                date = event_text.add_run(event.full_event_string())
+
             print("\n\n")
 
     def save_document(self, file_path):
