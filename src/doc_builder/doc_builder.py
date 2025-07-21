@@ -126,7 +126,13 @@ class DocBuilder:
         main_section.page_width = Inches(11.0)
         main_section.page_height = Inches(8.5)
 
-    def build_table(self):
+    def init_table(self):
+        self.__table = self.create_table()
+        self.set_table_weekdays()
+        self.set_table_dates()
+        self.populate_table_with_events()
+
+    def create_table(self):
         # create table in document
         table = self.__doc.add_table(rows=4, cols=6)
 
@@ -136,17 +142,16 @@ class DocBuilder:
             for cell in range(0, len(cols[i].cells)):
                 cols[i].cells[cell].width = Inches(1.0)
 
-        self.__table = table
-        self.set_table_headers()
-        self.populate_table_with_events()
+        return table
 
-    def set_table_headers(self):
+    def set_table_weekdays(self):
         # set headers of the table
         day_headers = self.__table.rows[0].cells
         week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
         for day in range(0, len(week)):
             day_headers[day].text = week[day]
 
+    def set_table_dates(self):
         # set dates of the table
         dates = self.calendar.get_next_weeks_dates()
         date_headers = self.__table.rows[1].cells
@@ -157,9 +162,6 @@ class DocBuilder:
         # set table events
         event_containers = self.__table.rows[2].cells
         for index, (date, events) in enumerate(self.calendar.events.items()):
-            print("index: ", index)
-            print("date: ", date)
-            print("events: ")
             for event in events:
                 print(event)
                 title = event.title
