@@ -17,6 +17,7 @@ class DocBuilder:
 
     def __init__(self, calendar: EventCalendar = None):
         self.__doc = Document()
+        self.__table = None
         self.calendar = calendar
         self.set_page_orientation()
         self.margins = settings.MARGINS_IN_INCHES
@@ -126,7 +127,6 @@ class DocBuilder:
         main_section.page_height = Inches(8.5)
 
     def build_table(self):
-        warnings.warn("Break this function down into smaller pieces!")
         # create table in document
         table = self.__doc.add_table(rows=4, cols=6)
 
@@ -136,22 +136,26 @@ class DocBuilder:
             for cell in range(0, len(cols[i].cells)):
                 cols[i].cells[cell].width = Inches(1.0)
 
+        self.__table = table
+        self.set_table_headers()
+        self.populate_table_with_events()
+
+    def set_table_headers(self):
         # set headers of the table
-        day_headers = table.rows[0].cells
+        day_headers = self.__table.rows[0].cells
         week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
         for day in range(0, len(week)):
             day_headers[day].text = week[day]
 
         # set dates of the table
-        warnings.warn("Table dates are currently hard-coded!")
-        dates = ["2025-07-21", "2025-07-22", "2025-07-23",
-                 "2025-07-24", "2025-07-25", "2025-07-26"]
-        date_headers = table.rows[1].cells
+        dates = self.calendar.get_next_weeks_dates()
+        date_headers = self.__table.rows[1].cells
         for date in range(0, len(dates)):
-            date_headers[date].text = dates[date]
+            date_headers[date].text = dates[date][-2::]
 
+    def populate_table_with_events(self):
         # set table events
-        event_containers = table.rows[2].cells
+        event_containers = self.__table.rows[2].cells
         for index, (date, events) in enumerate(self.calendar.events.items()):
             print("index: ", index)
             print("date: ", date)
@@ -163,11 +167,6 @@ class DocBuilder:
                 text = title + "\n" + date
                 event_containers[index].add_paragraph(text)
             print("\n\n")
-        # for key, value in self.calendar.events.items():
-        #     print(key)
-        #     for v in value:
-        #         print(v)
-        #     print("\n\n")
 
     def save_document(self, file_path):
         self.__doc.save(file_path)
