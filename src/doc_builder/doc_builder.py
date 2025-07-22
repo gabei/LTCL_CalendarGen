@@ -4,6 +4,7 @@ from . import settings
 from event_calendar.event_calendar import EventCalendar
 from docx.shared import Inches
 from docx.enum.section import WD_SECTION, WD_ORIENT
+from docx.enum.table import WD_TABLE_ALIGNMENT
 import warnings
 
 
@@ -133,6 +134,8 @@ class DocBuilder:
 
     def init_table(self):
         self.__table = self.create_table()
+        self.__table.alignment = WD_TABLE_ALIGNMENT.CENTER
+        self.__table.autofit = False
         self.set_table_weekdays()
         self.set_table_dates()
         self.populate_table_with_events()
@@ -145,7 +148,7 @@ class DocBuilder:
         cols = table.columns
         for i in range(0, len(cols)):
             for cell in range(0, len(cols[i].cells)):
-                cols[i].cells[cell].width = Inches(1.0)
+                cols[i].cells[cell].width = Inches(1.5)
 
         return table
 
