@@ -172,9 +172,13 @@ class DocBuilder:
         for day in range(0, len(week)):
             paragraph = day_headers[day].paragraphs[0]
             paragraph.alignment = WD_TABLE_ALIGNMENT.CENTER
+            paragraph.alignment - WD_ALIGN_VERTICAL.CENTER
+            paragraph.paragraph_format.space_before = Pt(0)
+            paragraph.paragraph_format.space_after = Pt(0)
             text = paragraph.add_run(week[day])
             text.bold = True
             text.font.color.rgb = RGBColor(255, 255, 255)
+            text.font.size = Pt(12)
 
             shading = parse_xml(
                 r'<w:shd {} w:fill="5b9bd7"/>'.format(nsdecls('w')))
