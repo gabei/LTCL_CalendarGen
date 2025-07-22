@@ -23,6 +23,7 @@ class DocBuilder:
         self.margins = margins
         self.set_page_orientation()
         self.set_doc_styles(font_style, font_size)
+        self.set_page_header()
 
     @property
     def margins(self) -> dict:
@@ -131,6 +132,15 @@ class DocBuilder:
         main_section.orientation = WD_ORIENT.LANDSCAPE
         main_section.page_width = Inches(11.0)
         main_section.page_height = Inches(8.5)
+
+    def set_page_header(self):
+        top_section = self.__doc.sections[0]
+        header = top_section.header
+        text = header.paragraphs[0]
+        text.alignment = WD_TABLE_ALIGNMENT.CENTER
+        text.style.font.size = Pt(20)
+        text.bold = True
+        text.text = "Meeting Room Schedule"
 
     def init_table(self):
         self.__table = self.create_table()
