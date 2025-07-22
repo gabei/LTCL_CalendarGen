@@ -5,7 +5,8 @@ from event_calendar.event_calendar import EventCalendar
 from docx.shared import Inches
 from docx.enum.section import WD_SECTION, WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT
-import warnings
+from docx.oxml import OxmlElement
+from docx.oxml.ns import qn
 
 
 class DocBuilder:
@@ -180,11 +181,28 @@ class DocBuilder:
         # set table events
         event_containers = self.__table.rows[2].cells
         for index, (__, events) in enumerate(self.calendar.events.items()):
+            table = event_containers[index].add_table(rows=len(events), cols=1)
+
+            i = 0
             for event in events:
-                event_text = event_containers[index].add_paragraph()
+                cell = table.cell(i, 0)
+                styles = cell._element.get_or_add_tcPr()
+                borders = OxmlElement('w:tcBorders')
+                styles.append(borders)
+
+                for border_type in ['top', 'left', 'bottom', 'right']:
+                    border_elm = OxmlElement(f'w:{border_type}')
+                    border_elm.set(qn('w:val'), 'single')
+                    border_elm.set(qn('w:sz'), '10')
+                    border_elm.set(qn('w:space'), '0')
+                    border_elm.set(qn('w:color'), '000000')
+                    borders.append(border_elm)
+
+                event_text = cell.add_paragraph()
                 title = event_text.add_run(event.title + "\n")
                 title.bold = True
                 date = event_text.add_run(event.full_event_string())
+                i += 1
 
     def save_document(self, file_path):
         self.__doc.save(file_path)
