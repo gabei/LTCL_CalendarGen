@@ -7,6 +7,8 @@ from docx.enum.section import WD_SECTION, WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
+from docx.oxml.ns import nsdecls
+from docx.oxml import parse_xml
 
 
 class DocBuilder:
@@ -168,6 +170,10 @@ class DocBuilder:
         day_headers = self.__table.rows[0].cells
         week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
         for day in range(0, len(week)):
+            shading = parse_xml(
+                r'<w:shd {} w:fill="5b9bd7"/>'.format(nsdecls('w')))
+            styles = day_headers[day]._element.get_or_add_tcPr()
+            styles.append(shading)
             day_headers[day].text = week[day]
 
     def set_table_dates(self):
