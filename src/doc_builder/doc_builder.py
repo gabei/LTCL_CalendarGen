@@ -149,6 +149,7 @@ class DocBuilder:
         self.__table = self.create_table()
         self.__table.alignment = WD_TABLE_ALIGNMENT.CENTER
         self.__table.autofit = False
+        self.__table.style = 'Table Grid'
         self.set_table_weekdays()
         self.set_table_dates()
         self.populate_table_with_events()
@@ -190,7 +191,9 @@ class DocBuilder:
         dates = self.calendar.get_next_weeks_dates()
         date_headers = self.__table.rows[1].cells
         for date in range(0, len(dates)):
-            date_headers[date].text = dates[date][-2::]
+            paragraph = date_headers[date].paragraphs[0]
+            paragraph.alignment = WD_TABLE_ALIGNMENT.RIGHT
+            text = paragraph.add_run(dates[date][-2::])
 
     def populate_table_with_events(self):
         # set table events
