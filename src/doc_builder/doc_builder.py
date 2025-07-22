@@ -2,7 +2,7 @@ from docx import Document
 from docx.shared import Pt, Inches
 from . import settings
 from event_calendar.event_calendar import EventCalendar
-from docx.shared import Inches
+from docx.shared import Inches, RGBColor
 from docx.enum.section import WD_SECTION, WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import OxmlElement
@@ -170,11 +170,16 @@ class DocBuilder:
         day_headers = self.__table.rows[0].cells
         week = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
         for day in range(0, len(week)):
+            paragraph = day_headers[day].paragraphs[0]
+            paragraph.alignment = WD_TABLE_ALIGNMENT.CENTER
+            text = paragraph.add_run(week[day])
+            text.bold = True
+            text.font.color.rgb = RGBColor(255, 255, 255)
+
             shading = parse_xml(
                 r'<w:shd {} w:fill="5b9bd7"/>'.format(nsdecls('w')))
             styles = day_headers[day]._element.get_or_add_tcPr()
             styles.append(shading)
-            day_headers[day].text = week[day]
 
     def set_table_dates(self):
         # set dates of the table
