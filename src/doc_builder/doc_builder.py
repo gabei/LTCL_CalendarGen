@@ -4,7 +4,7 @@ from . import settings
 from event_calendar.event_calendar import EventCalendar
 from docx.shared import Inches
 from docx.enum.section import WD_SECTION, WD_ORIENT
-from docx.enum.table import WD_TABLE_ALIGNMENT
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 
@@ -193,7 +193,8 @@ class DocBuilder:
                 self.append_border_styles(borders)
 
                 # add data to cell
-                event_text = cell.add_paragraph()
+                event_text = cell.paragraphs[0]
+                event_text.paragraph_format.space_before = Pt(0)
                 title = event_text.add_run(event.title + "\n")
                 title.bold = True
                 date = event_text.add_run(event.full_event_string())
