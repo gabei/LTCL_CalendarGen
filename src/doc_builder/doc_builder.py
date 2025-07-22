@@ -183,26 +183,30 @@ class DocBuilder:
         for index, (__, events) in enumerate(self.calendar.events.items()):
             table = event_containers[index].add_table(rows=len(events), cols=1)
 
-            i = 0
+            cell_idx = 0
             for event in events:
-                cell = table.cell(i, 0)
+                # style cell
+                cell = table.cell(cell_idx, 0)
                 styles = cell._element.get_or_add_tcPr()
                 borders = OxmlElement('w:tcBorders')
                 styles.append(borders)
+                self.append_border_styles(borders)
 
-                for border_type in ['top', 'left', 'bottom', 'right']:
-                    border_elm = OxmlElement(f'w:{border_type}')
-                    border_elm.set(qn('w:val'), 'single')
-                    border_elm.set(qn('w:sz'), '10')
-                    border_elm.set(qn('w:space'), '0')
-                    border_elm.set(qn('w:color'), '000000')
-                    borders.append(border_elm)
-
+                # add data to cell
                 event_text = cell.add_paragraph()
                 title = event_text.add_run(event.title + "\n")
                 title.bold = True
                 date = event_text.add_run(event.full_event_string())
-                i += 1
+                cell_idx += 1
+
+    def append_border_styles(self, border):
+        for border_type in ['top', 'left', 'bottom', 'right']:
+            border_elm = OxmlElement(f'w:{border_type}')
+            border_elm.set(qn('w:val'), 'single')
+            border_elm.set(qn('w:sz'), '10')
+            border_elm.set(qn('w:space'), '0')
+            border_elm.set(qn('w:color'), '000000')
+            border.append(border_elm)
 
     def save_document(self, file_path):
         self.__doc.save(file_path)
