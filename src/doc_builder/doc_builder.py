@@ -5,6 +5,7 @@ from event_calendar.event_calendar import EventCalendar
 from docx.shared import Inches, RGBColor
 from docx.enum.section import WD_SECTION, WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.enum.text import WD_ALIGN_PARAGRAPH
 from docx.oxml import OxmlElement
 from docx.oxml.ns import qn
 from docx.oxml.ns import nsdecls
@@ -146,7 +147,7 @@ class DocBuilder:
         text.text = "Meeting Room Schedule"
 
     def init_table(self):
-        self.__table = self.create_table()
+        self.__table = self.create_table(rows=3, cols=6, cell_width_inches=1.5)
         self.__table.alignment = WD_TABLE_ALIGNMENT.CENTER
         self.__table.autofit = False
         self.__table.style = 'Table Grid'
@@ -154,15 +155,17 @@ class DocBuilder:
         self.set_table_dates()
         self.populate_table_with_events()
 
-    def create_table(self):
+    def create_table(self, rows, cols, cell_width_inches, parent=None):
+        if not parent:
+            parent = self.__doc
         # create table in document
-        table = self.__doc.add_table(rows=4, cols=6)
+        table = parent.add_table(rows=rows, cols=cols)
 
         # set widths of the table columns
         cols = table.columns
         for i in range(0, len(cols)):
             for cell in range(0, len(cols[i].cells)):
-                cols[i].cells[cell].width = Inches(1.5)
+                cols[i].cells[cell].width = Inches(cell_width_inches)
 
         return table
 
@@ -199,12 +202,13 @@ class DocBuilder:
         # set table events
         event_containers = self.__table.rows[2].cells
         for index, (__, events) in enumerate(self.calendar.events.items()):
-            # table = event_containers[index].add_table(rows=len(events), cols=1)
             container = event_containers[index]
 
             cell_idx = 0
             for event in events:
-                table = container.add_table(rows=1, cols=1)
+                table = self.create_table(1, 1, 1.25, container)
+                table.alignment = WD_TABLE_ALIGNMENT.CENTER
+
                 # style cell
                 cell = table.cell(0, 0)
                 styles = cell._element.get_or_add_tcPr()
