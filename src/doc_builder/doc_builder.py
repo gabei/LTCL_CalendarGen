@@ -1,4 +1,4 @@
-from docx import Document
+from docx import Document, types
 from docx.shared import Pt, Inches
 from . import settings
 from event_calendar.event_calendar import EventCalendar
@@ -125,13 +125,28 @@ class DocBuilder:
                 f"The object does not have the required size attribute: {e}")
             raise
 
-    def set_doc_styles(self, font_style: str, font_size: int):
+    def set_doc_styles(self, font_style: str, font_size: int) -> None:
+        """
+        Sets the font style and size for the whole document
+
+          Parameters:
+            font_style {str} —— the font style to set
+            font_size {int} —— the font size to set
+
+          Returns:
+              None
+        """
         style = self.__doc.styles["Normal"]
         font = style.font
         font.name = font_style
         font.size = font_size
 
-    def set_page_orientation(self):
+    def set_page_orientation(self) -> None:
+        """
+        Sets the document up as a default 8.5 x 11 landscape page.
+        Returns: None
+        """
+
         main_section = self.__doc.sections[-1]
         main_section.orientation = WD_ORIENT.LANDSCAPE
         main_section.page_width = Inches(11.0)
@@ -155,10 +170,20 @@ class DocBuilder:
         self.set_table_dates()
         self.populate_table_with_events()
 
-    def create_table(self, rows, cols, cell_width_inches, parent=None):
+    def create_table(self, rows, cols, cell_width_inches, parent=None) -> types.ProvidesXmlPart:
+        """
+        Creates a table with specified dimensions and appends it to parent. If no parent is supplied, appends directly to the main document.
+
+        Parameters:
+            rows ——
+            cols ——
+            cell_width_inches ——
+            parent ——
+        Returns:
+            table —— The created table
+        """
         if not parent:
             parent = self.__doc
-        # create table in document
         table = parent.add_table(rows=rows, cols=cols)
 
         # set widths of the table columns
