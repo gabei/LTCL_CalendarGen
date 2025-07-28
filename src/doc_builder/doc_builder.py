@@ -162,7 +162,8 @@ class DocBuilder:
         text.text = "Meeting Room Schedule"
 
     def init_table(self):
-        self.__table = self.create_table(rows=3, cols=6, cell_width_inches=1.5)
+        self.__table = self.create_table(
+            rows=3, cols=6, cell_width_inches=1.65)
         self.__table.alignment = WD_TABLE_ALIGNMENT.CENTER
         self.__table.autofit = False
         self.__table.style = 'Table Grid'
@@ -231,7 +232,7 @@ class DocBuilder:
 
             cell_idx = 0
             for event in events:
-                table = self.create_table(1, 1, 1.25, container)
+                table = self.create_table(1, 1, 1.4, container)
                 table.alignment = WD_TABLE_ALIGNMENT.CENTER
 
                 # style cell
