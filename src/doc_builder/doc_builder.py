@@ -199,12 +199,14 @@ class DocBuilder:
         # set table events
         event_containers = self.__table.rows[2].cells
         for index, (__, events) in enumerate(self.calendar.events.items()):
-            table = event_containers[index].add_table(rows=len(events), cols=1)
+            # table = event_containers[index].add_table(rows=len(events), cols=1)
+            container = event_containers[index]
 
             cell_idx = 0
             for event in events:
+                table = container.add_table(rows=1, cols=1)
                 # style cell
-                cell = table.cell(cell_idx, 0)
+                cell = table.cell(0, 0)
                 styles = cell._element.get_or_add_tcPr()
                 borders = OxmlElement('w:tcBorders')
                 styles.append(borders)
