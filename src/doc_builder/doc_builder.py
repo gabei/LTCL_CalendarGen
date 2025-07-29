@@ -1,15 +1,12 @@
 from docx import Document, types
-from docx.shared import Pt, Inches
-from . import settings
-from event_calendar.event_calendar import EventCalendar
-from docx.shared import Inches, RGBColor
-from docx.enum.section import WD_SECTION, WD_ORIENT
+from docx.shared import Inches, Pt, RGBColor
+from docx.enum.section import WD_ORIENT
 from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
-from docx.enum.text import WD_ALIGN_PARAGRAPH
-from docx.oxml import OxmlElement
-from docx.oxml.ns import qn
-from docx.oxml.ns import nsdecls
-from docx.oxml import parse_xml
+from docx.enum.table import WD_TABLE_ALIGNMENT, WD_ALIGN_VERTICAL
+from docx.enum.style import WD_STYLE_TYPE
+from docx.oxml import OxmlElement, parse_xml
+from docx.oxml.ns import qn, nsdecls
+from event_calendar.event_calendar import EventCalendar
 
 
 class DocBuilder:
@@ -124,6 +121,10 @@ class DocBuilder:
             print(
                 f"The object does not have the required size attribute: {e}")
             raise
+
+    @property
+    def styles(self):
+        return self.__doc.styles
 
     def set_doc_styles(self, font_style: str, font_size: int) -> None:
         """
@@ -258,6 +259,26 @@ class DocBuilder:
             border_elm.set(qn('w:space'), '0')
             border_elm.set(qn('w:color'), '000000')
             border.append(border_elm)
+
+    def init_psa(self):
+        quiet_room = self.create_table(1, 1, 9.9)
+        container = quiet_room.rows[0].cells[0]
+        paragraph = container.paragraphs[0]
+
+        styles = self.styles
+        psa_style = styles.add_style('psa', WD_STYLE_TYPE.CHARACTER)
+        psa_font = psa_style.font
+        psa_font.color.rgb = RGBColor(255, 255, 255)
+        psa_font.size = Pt(30)
+        psa_font.alignment = WD_TABLE_ALIGNMENT.CENTER
+        psa_font.alignment = WD_ALIGN_VERTICAL.CENTER
+        psa_text = "The meeting room is available for public use as a quiet space when not reserved."
+        paragraph.add_run(psa_text, style='psa').bold = True
+
+        shading = parse_xml(
+            r'<w:shd {} w:fill="5b9bd7"/>'.format(nsdecls('w')))
+        styles = container._element.get_or_add_tcPr()
+        styles.append(shading)
 
     def save_document(self, file_path):
         self.__doc.save(file_path)
