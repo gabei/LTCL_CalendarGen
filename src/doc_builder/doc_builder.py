@@ -251,8 +251,8 @@ class DocBuilder:
                 date = event_text.add_run(event.full_event_string())
                 cell_idx += 1
 
-    def append_border_styles(self, border):
-        for border_type in ['top', 'left', 'bottom', 'right']:
+    def append_border_styles(self, border, sides=['top', 'left', 'bottom', 'right']):
+        for border_type in sides:
             border_elm = OxmlElement(f'w:{border_type}')
             border_elm.set(qn('w:val'), 'single')
             border_elm.set(qn('w:sz'), '10')
@@ -262,18 +262,29 @@ class DocBuilder:
 
     def init_psa(self):
         quiet_room = self.create_table(1, 1, 9.9)
+        quiet_room.alignment = WD_TABLE_ALIGNMENT.CENTER
+        quiet_room.autofit = False
+        quiet_room.rows[0].height = Inches(2)
+
         container = quiet_room.rows[0].cells[0]
         paragraph = container.paragraphs[0]
+        paragraph.alignment = WD_TABLE_ALIGNMENT.CENTER
 
         styles = self.styles
         psa_style = styles.add_style('psa', WD_STYLE_TYPE.CHARACTER)
         psa_font = psa_style.font
         psa_font.color.rgb = RGBColor(255, 255, 255)
         psa_font.size = Pt(30)
-        psa_font.alignment = WD_TABLE_ALIGNMENT.CENTER
-        psa_font.alignment = WD_ALIGN_VERTICAL.CENTER
         psa_text = "The meeting room is available for public use as a quiet space when not reserved."
         paragraph.add_run(psa_text, style='psa').bold = True
+
+        # style cell
+        cell = quiet_room.cell(0, 0)
+        cell.vertical_alignment = WD_ALIGN_VERTICAL.CENTER
+        styles = cell._element.get_or_add_tcPr()
+        borders = OxmlElement('w:tcBorders')
+        styles.append(borders)
+        self.append_border_styles(borders, ['left', 'bottom', 'right'])
 
         shading = parse_xml(
             r'<w:shd {} w:fill="5b9bd7"/>'.format(nsdecls('w')))
